@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row align-middle">
                 <div class="col-md-8 col-md-offset-2">
-                    <div class="panel panel-default" style="background-color: rgba(230, 230, 230, 0.3);">
+                    <div class="panel panel-default" style="background-color: rgba(220, 220, 233, 0.3);">
                         <div class="panel-heading">Login</div>
                         <div class="panel-body">
                             <form class="form-horizontal" role="form" method="POST" action="">
@@ -63,6 +63,9 @@
                                     <div class="col-md-6 col-md-offset-4">
                                         <button type="submit" class="btn btn-primary">
                                             <i class="fa fa-btn fa-sign-in"></i> Login
+                                        </button>
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-btn fa-sign-in"></i> Sign Up !
                                         </button>
                                     </div>
                                 </div>
