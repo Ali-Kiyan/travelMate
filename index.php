@@ -19,17 +19,7 @@
     <body>
       <div class="cover">
         <div class="bg">
-
-          <div class="title">
-            <div class="text">
-              TravelMate
-            </div>
-            <div class="desc">
-              Please login for posting
-            </div>
           </div>
-
-
         </div>
       </div>
       <div class="login">
@@ -81,7 +71,7 @@
                                 <div class="col-md-6 col-md-offset">
                                         <label >
                                           in a rush?
-                                          <button type="button" name="button" class="btn btn-primary">View locations</button>
+                                          <button type="button" name="button" class="btn btn-primary" width="500px">View locations</button>
                                         </label>
                                 </div>
                             </form>
