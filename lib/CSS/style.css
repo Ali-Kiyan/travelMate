@@ -1,0 +1,9 @@
+/*IE 10 Support*/
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
