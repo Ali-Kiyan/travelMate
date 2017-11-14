@@ -11,106 +11,86 @@
     <link rel="icon" href="../../favicon.ico">
     <link href="lib/CSS/bootstrap.min.css" rel="stylesheet">
     <link href="lib/CSS/style.css" rel="stylesheet">
-
-    <title>Carousel Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700">
+    <title>Travel Mate</title>
   </head>
 
 
     <body>
-      <nav class="navbar navbar-fixed-top navbar-inverse">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
+      <div class="cover">
+        <div class="bg">
+
+          <div class="title">
+            <div class="text">
+              TravelMate
+            </div>
+            <div class="desc">
+              Please login for posting
+            </div>
           </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div><!-- /.nav-collapse -->
-        </div><!-- /.container -->
-      </nav><!-- /.navbar -->
 
-      <div class="container">
 
-        <div class="row row-offcanvas row-offcanvas-right">
+        </div>
+      </div>
+      <div class="login">
+        <div class="container">
+            <div class="row align-middle">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="panel panel-default" style="background-color: rgba(230, 230, 230, 0.3);">
+                        <div class="panel-heading">Login</div>
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form" method="POST" action="">
 
-          <div class="col-xs-12 col-sm-9">
-            <p class="pull-right visible-xs">
-              <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-            </p>
-            <div class="jumbotron">
-              <h1>Hello, world!</h1>
-              <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-4 control-label">E-Mail Address</label>
+
+                                    <div class="col-md-6">
+                                        <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
+                                            <span class="help-block">
+                                                <strong></strong>
+                                            </span>
+
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="col-md-4 control-label">Password</label>
+
+                                    <div class="col-md-6">
+                                        <input id="password" type="password" class="form-control" name="password">
+                                            <span class="help-block">
+                                                <strong></strong>
+                                            </span>
+
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <div class="form-group">
+                                    <div class="col-md-6 col-md-offset-4">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-btn fa-sign-in"></i> Login
+                                        </button>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="col-md-6 col-md-offset">
+                                        <label >
+                                          in a rush?
+                                          <button type="button" name="button" class="btn btn-primary">View locations</button>
+                                        </label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-              <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
-              <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
-              <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
-              <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
-              <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
-              <div class="col-xs-6 col-lg-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-              </div><!--/.col-xs-6.col-lg-4-->
-            </div><!--/row-->
-          </div><!--/.col-xs-12.col-sm-9-->
-
-          <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-            <div class="list-group">
-              <a href="#" class="list-group-item active">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-              <a href="#" class="list-group-item">Link</a>
-            </div>
-          </div><!--/.sidebar-offcanvas-->
-        </div><!--/row-->
-
-        <hr>
-
-        <footer>
-          <p>&copy; 2016 Company, Inc.</p>
-        </footer>
-
-      </div><!--/.container-->
-
-
-
-    </div><!-- /.container -->
+        </div>
+      </div>
 
 
     <!-- Bootstrap core JavaScript
