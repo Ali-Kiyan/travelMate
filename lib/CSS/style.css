@@ -14,6 +14,20 @@ body {
   font-family: 'Assistant', sans-serif !important;
   font-size: 1.2rem;
 }
+/*colours*/
+.Brown{
+  background: #453130;
+  color: whitesmoke;
+}
+.Brown:hover{
+    background: #453144;
+    color: whitesmoke;
+}
+.btn{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 
 
 .bg {

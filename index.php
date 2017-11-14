@@ -61,10 +61,10 @@
 
                                 <div class="form-group">
                                     <div class="col-md-6 col-md-offset-4">
-                                        <button type="submit" class="btn btn-primary">
+                                        <button type="submit" class="btn Brown">
                                             <i class="fa fa-btn fa-sign-in"></i> Login
                                         </button>
-                                        <button type="submit" class="btn btn-primary">
+                                        <button type="submit" class="btn Brown">
                                             <i class="fa fa-btn fa-sign-in"></i> Sign Up !
                                         </button>
                                     </div>
@@ -73,8 +73,8 @@
                                 <br>
                                 <div class="col-md-6 col-md-offset">
                                         <label >
-                                          in a rush?
-                                          <button type="button" name="button" class="btn btn-primary" width="500px">View locations</button>
+                                          In a rush?
+                                          <button type="button" name="button" class="btn Brown" width="500px">View locations</button>
                                         </label>
                                 </div>
                             </form>
