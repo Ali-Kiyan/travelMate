@@ -1,0 +1,19 @@
+<?php
+namespace travelMateProject;
+class User {
+  protected $User_id, $username, $First_name, $Last_name, $password;
+  public function __construct($dbrow) {
+    $this->User_id = $dbrow['User_id'];
+    $this->username = $dbrow['username'];
+    $this->First_Name = $dbrow['First_Name'];
+    $this->Last_Name = $dbrow['Last_Name'];
+    $this->password = $dbrow['password'];
+  }
+
+  //accessors
+  public function getUserId() { return $this->User_id;}
+  public function getUsername() { return $this->username;}
+  public function getFirstName() { return $this->First_Name;}
+  public function getLastName() { return $this->Last_Name;}
+  public function getPassword() { return $this->password;}
+}
