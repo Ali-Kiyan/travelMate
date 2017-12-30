@@ -1,5 +1,17 @@
-$host = 'helios.csesalford.com';
-$dbname = '';
-$user = 'sap146';
-$pass = 'DBWS_2017';
-$dbh = new PDO("mysql:host=$host;dbname=$dbname",$user,$pass);
+<?php
+namespace travelMateProject;
+//Singleton Design
+class Database {
+  protected static $instance = null;
+  protected $dbh;
+  public static function getInstance() {
+    $username = 'sap146';
+    $password = 'DBWS_2017';
+    $host = 'helios.csesalford.com';
+    $dbname = 'sap146_travelmatedb';
+    if (self::instance === null) {
+      self::$instance = new self($username, $password, $host, $dbname);
+    }
+    return self::$instance;
+  }
+}
