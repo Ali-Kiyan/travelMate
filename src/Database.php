@@ -28,7 +28,7 @@ class Database {
     return $this->dbh;
   }
   public function __destruct() {
-    // destroys the database handler when it is no longer need 
+    // destroys the database handler when it is no longer need
     $this->dbh = null;
   }
 }
