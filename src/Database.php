@@ -9,6 +9,10 @@ class Database {
     $password = 'DBWS_2017';
     $host = 'helios.csesalford.com';
     $dbname = 'sap146_travelmatedb';
+    /*
+    * checking if the db object already exists
+    * if not, new $instance gets created
+    */
     if (self::instance === null) {
       self::$instance = new self($username, $password, $host, $dbname);
     }
