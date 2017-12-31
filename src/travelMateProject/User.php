@@ -1,7 +1,7 @@
 <?php
 namespace travelMateProject;
 class User {
-  protected $User_id, $username, $First_name, $Last_name, $password;
+  protected $User_id, $username, $First_Name, $Last_Name, $password;
   public function __construct($dbrow) {
     $this->User_id = $dbrow['User_id'];
     $this->username = $dbrow['username'];

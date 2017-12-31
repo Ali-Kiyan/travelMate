@@ -7,24 +7,24 @@ class Database {
 
   public static function getInstance() {
     $username = 'sap146';
-    $password = 'DBWS_2017';
+    $password = 'hdb';
     $host = 'helios.csesalford.com';
     $dbname = 'sap146_travelmatedb';
     /*
     * checking if the db object already exists
     * if not, new $instance gets created
     */
-    if (self::instance === null) {
+    if (self::$instance === null) {
       self::$instance = new self($username, $password, $host, $dbname);
     }
     return self::$instance;
   }
   private function __construct($username, $password, $host, $database) {
     // database handler with connection info
-    $this->dbh = new \PDO("mysql:host=$host;dbname=$database, $username, $password");
+    $this->dbh = new \PDO("mysql:host=$host;dbname=$database", $username, $password);
   }
   public function getDbh() {
-    // retruns the database handler to be used elsewhere
+    // returns the database handler to be used elsewhere
     return $this->dbh;
   }
   public function __destruct() {

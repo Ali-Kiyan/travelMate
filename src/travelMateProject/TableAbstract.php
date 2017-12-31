@@ -17,13 +17,13 @@ abstract class TableAbstract
     public function fetchAll()
     {
         $sql = 'SELECT * FROM ' . $this->name;
-        $results = $this->dbh->dbh->prepare($sql);
+        $results = $this->dbh->prepare($sql);
         $results->execute();
         return $results;
     }
     public function fetchByPrimaryKey($key){
-        $sql= 'SELECT * FROM ' . $this->name . ' WHERE ' . $this->primaryKey . ' = :User_id LIMIT 1';
-        $params = array(':User_id' => '$key');
+        $sql= 'SELECT * FROM ' . $this->name . ' WHERE ' . $this->primaryKey . ' = :id LIMIT 1';
+        $params = array(':id' => $key);
         $results = $this->dbh->prepare($sql);
         $results->execute($params);
         return $results->fetch();
