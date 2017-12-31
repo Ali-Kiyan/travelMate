@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="" />
+    <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/template/header.phtml" afterPath="$PROJECT_DIR$/Views/template/header.phtml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/travelMateProject/Database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -72,12 +74,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/template/header.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <marker date="1514759353086" expanded="true" signature="723:732" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +138,7 @@
         <option value="$PROJECT_DIR$/Views/users.phtml" />
         <option value="$PROJECT_DIR$/database.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/UserTable.php" />
+        <option value="$PROJECT_DIR$/Views/template/header.phtml" />
       </list>
     </option>
   </component>
@@ -190,6 +195,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelMate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelMate" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,12 +338,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513812860157</updated>
       <workItem from="1513812862459" duration="258000" />
-      <workItem from="1514733512420" duration="8161000" />
+      <workItem from="1514733512420" duration="8674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8419000" />
+    <option name="totallyTimeSpent" value="8932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -463,19 +486,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/template/header.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/travelMateProject/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/template/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <marker date="1514759353086" expanded="true" signature="723:732" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
