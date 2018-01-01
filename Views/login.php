@@ -1,4 +1,4 @@
-<?php require_once __dir__ . "/Views/template/header.phtml"
+<?php require_once __dir__ . "/template/header.phtml"
 ?>
     <body>
       <div class="cover">
@@ -69,5 +69,5 @@
         </div>
       </div>
   </body>
-  <?php require_once __dir__ . "/Views/template/footer.phtml"
-  ?>
+<?php require_once __dir__ . "/template/footer.phtml"
+?>
