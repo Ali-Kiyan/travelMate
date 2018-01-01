@@ -525,6 +525,15 @@ body {
   opacity: 0.7;
   transition: all 1000ms;
 }
+.register{
+  position: fixed;
+  top: 45px;
+  z-index: 10;
+  text-align: center;
+  width: 100%;
+  opacity: 0.7;
+  transition: all 1000ms;
+}
 .panel{
     padding-bottom: 10%;
 }

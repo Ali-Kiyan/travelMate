@@ -6,12 +6,12 @@
           </div>
         </div>
 
-      <div class="login animated fadeInDown">
+      <div class="register animated fadeInDown">
         <div class="container">
             <div class="row align-middle">
                 <div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <div class="panel panel-default" style="background-color: rgba(220, 220, 233, 0.3);">
-                        <div class="panel-heading">Login</div>
+                        <div class="panel-heading">Register</div>
                         <div class="panel-body">
                             <form class="form-horizontal" role="form" method="POST" action="">
 
