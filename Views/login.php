@@ -40,16 +40,14 @@
                                 </div>
 
 
-
-
-
                                 <div class="form-group">
                                     <div class="col-md-6 col-md-offset-4">
-                                        <button type="submit" class="btn Brown">Login
+                                        <button type="submit" class="btn btn-info Brown">Login
                                         </button>
+                                        <a href="register.php" class="btn btn-warning Brown">Sign Up!</a>
                                     </div>
                                 </div>
-                                <a href="register.php" class="btn Brown">sada</a>
+
                                 <br>
                                 <br>
                                 <div class="col-md-6 col-md-offset">

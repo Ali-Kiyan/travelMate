@@ -13,51 +13,29 @@
                     <div class="panel panel-default" style="background-color: rgba(220, 220, 233, 0.3);">
                         <div class="panel-heading">Register</div>
                         <div class="panel-body">
-                            <form class="form-horizontal" role="form" method="POST" action="">
+                            <form class="form-horizontal" role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 
                                 <div class="form-group">
-                                    <label for="email" class="col-sm-4 col-xs-4 control-label">E-Mail Address</label>
-
-                                    <div class="col-sm-4 col-xs-8">
-                                        <input id="email" type="email" class="form-control" name="email" value="">
-                                            <span class="help-block">
-                                                <strong></strong>
-                                            </span>
-
-                                    </div>
+                                    <label for="email" class="col-sm-2 col-xs-4 control-label">User Name</label>
+                                    <input type="text" name="" value="" class="form-control half" >
                                 </div>
-
                                 <div class="form-group">
-                                    <label for="password" class="col-sm-4 col-xs-4 control-label">Password</label>
-
-                                    <div class=" col-sm-4 col-xs-8">
-                                        <input id="password" type="password" class="form-control" name="password">
-                                            <span class="help-block">
-                                                <strong></strong>
-                                            </span>
-
-                                    </div>
+                                    <label for="email" class="col-sm-2 col-xs-4 control-label">First Name</label>
+                                    <input type="text" name="" value="" class="form-control half" >
                                 </div>
-
-
-
-
-
                                 <div class="form-group">
-                                    <div class="col-md-6 col-md-offset-4">
-                                        <button type="submit" class="btn Brown">Login
-                                        </button>
-                                    </div>
+                                    <label for="email" class="col-sm-2 col-xs-4 control-label">Last Name</label>
+                                    <input type="text" name="" value="" class="form-control half" >
                                 </div>
-                                <a href="register.php" class="btn Brown">sada</a>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 col-xs-4 control-label">Password</label>
+                                    <input type="text" name="" value="" class="form-control half" >
+                                </div>
                                 <br>
                                 <br>
-                                <div class="col-md-6 col-md-offset">
-                                        <label >
-                                          In a rush?
-                                          <button type="button" name="button" class="btn Brown" width="500px">View locations</button>
-                                        </label>
-                                </div>
+
+                                                  <button type="submit" name="submit" class="btn btn-info Brown center">Register</button>
+                                                  <a href="login.php" class="btn btn-warning Brown center">Login</a>
                             </form>
                         </div>
                     </div>

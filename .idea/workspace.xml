@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/login.php" afterPath="$PROJECT_DIR$/Views/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/travelMateProject/UserTable.php" afterPath="$PROJECT_DIR$/src/travelMateProject/UserTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/register.php" afterPath="$PROJECT_DIR$/Views/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/CSS/stylesheet.css" afterPath="$PROJECT_DIR$/lib/CSS/stylesheet.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="UserTable.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/travelMateProject/UserTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="41" />
               <folding>
                 <marker date="1514835414114" expanded="true" signature="503:515" ph="INSERT INTO ${$this}... " />
                 <marker date="1514835414114" expanded="true" signature="503:522" ph="INSERT INTO ${$this-&gt;name}... " />
@@ -255,12 +256,12 @@
       <updated>1513812860157</updated>
       <workItem from="1513812862459" duration="258000" />
       <workItem from="1514733512420" duration="9254000" />
-      <workItem from="1514825587280" duration="1756000" />
+      <workItem from="1514825587280" duration="2369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11268000" />
+    <option name="totallyTimeSpent" value="11881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -509,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/travelMateProject/UserTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="41" />
           <folding>
             <marker date="1514835414114" expanded="true" signature="503:515" ph="INSERT INTO ${$this}... " />
             <marker date="1514835414114" expanded="true" signature="503:522" ph="INSERT INTO ${$this-&gt;name}... " />

@@ -547,5 +547,13 @@ label{
 .login input {
   text-decoration: none;
   transition: all 200ms;
-
+}
+.register input{
+    width: 60% !important;
+}
+.register label{
+    color: black !important;
+}
+.center{
+  margin: 0 auto 0 auto;
 }
