@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:300');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 .navbar {
   margin-bottom: 0 !important;
