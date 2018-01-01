@@ -20,6 +20,7 @@ abstract class TableAbstract
         $results = $this->dbh->prepare($sql);
         $results->execute();
         return $results;
+
     }
     public function fetchByPrimaryKey($key){
         $sql= 'SELECT * FROM ' . $this->name . ' WHERE ' . $this->primaryKey . ' = :id LIMIT 1';
@@ -28,4 +29,18 @@ abstract class TableAbstract
         $results->execute($params);
         return $results->fetch();
     }
+    //INSERT
+    public function insertUser($data){
+        $sql = "INSERT INTO $this->name (First_Name, Last_Name,Username, Password) VALUES (:First_Name, :Last_Name, :Username, :Password)";
+        $results = $this->dbh->prepare($sql);
+        $x  = $results->execute(array(
+            ':First_Name' => $data['First_Name'],
+            ':Last_Name' => $data['Last_Name'],
+            ':Username' => $data['Username'],
+            ':Password' => $data['Password']
+        ));
+        return $x;
+    }
+
+
 }

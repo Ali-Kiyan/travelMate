@@ -6,10 +6,10 @@ class Database {
   protected $dbh;
 
   public static function getInstance() {
-    $username = 'sap146';
-    $password = 'hdb';
-    $host = 'helios.csesalford.com';
-    $dbname = 'sap146_travelmatedb';
+    $username = 'root';
+    $password = 'root';
+    $host = 'localhost';
+    $dbname = 'travelMateDB';
     /*
     * checking if the db object already exists
     * if not, new $instance gets created

@@ -15,28 +15,31 @@
                         <div class="panel-body">
                             <form class="form-horizontal" role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 
-                                <div class="form-group">
-                                    <label for="email" class="col-sm-2 col-xs-4 control-label">User Name</label>
-                                    <input type="text" name="" value="" class="form-control half" >
-                                </div>
+
                                 <div class="form-group">
                                     <label for="email" class="col-sm-2 col-xs-4 control-label">First Name</label>
-                                    <input type="text" name="" value="" class="form-control half" >
+                                    <input type="text" name="First_Name" value="" class="form-control half" >
                                 </div>
                                 <div class="form-group">
                                     <label for="email" class="col-sm-2 col-xs-4 control-label">Last Name</label>
-                                    <input type="text" name="" value="" class="form-control half" >
+                                    <input type="text" name="Last_Name" value="" class="form-control half" >
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 col-xs-4 control-label">User Name</label>
+                                    <input type="text" name="Username" value="" class="form-control half" >
                                 </div>
                                 <div class="form-group">
                                     <label for="email" class="col-sm-2 col-xs-4 control-label">Password</label>
-                                    <input type="text" name="" value="" class="form-control half" >
+                                    <input type="text" name="Password" value="" class="form-control half" >
                                 </div>
                                 <br>
                                 <br>
 
-                                                  <button type="submit" name="submit" class="btn btn-info Brown center">Register</button>
-                                                  <a href="login.php" class="btn btn-warning Brown center">Login</a>
+                                                  <button type="submit" name="Rsubmit" class="btn btn-info Brown center">Register</button>
+                                                  <a href="./Views/login.phtml" class="btn btn-warning Brown center">Login</a>
+
                             </form>
+                          <?php  echo $view->result; ?>
                         </div>
                     </div>
                 </div>
@@ -44,5 +47,6 @@
         </div>
       </div>
   </body>
+
 <?php require_once __dir__ . "/template/footer.phtml"
 ?>
