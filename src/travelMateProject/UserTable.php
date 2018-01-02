@@ -19,6 +19,23 @@ class UserTable extends TableAbstract {
     return $userArray;
   }
 
+    //INSERT
+    public function insertUser($data){
+        // Converting Null value of php to null value of mysql
+        $data["First_Name"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
+        $data["Last_Name"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
+        $data["Username"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
+        $data["Password"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
 
+        $sql = "INSERT INTO $this->name (First_Name, Last_Name,Username, Password) VALUES (:First_Name, :Last_Name, :Username, :Password)";
+        $results = $this->dbh->prepare($sql);
+        $response  = $results->execute(array(
+            ':First_Name' => $data["First_Name"],
+            ':Last_Name' => $data['Last_Name'],
+            ':Username' => $data['Username'],
+            ':Password' => $data['Password']
+        ));
+        return $response;
+    }
 
 }

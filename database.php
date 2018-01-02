@@ -10,15 +10,15 @@ if(isset($_POST['Rsubmit']))
 {
     $handle = new travelMateProject\UserTable();
 
-    $v = $handle->insertUser($_POST);
+    $response = $handle->insertUser($_POST);
 
-     if(!$v)
+     if(!$response)
      {
-         $view->result = ' Not a valid number.';
+         $view->result = '<div class="alert alert-danger">Please check you input </div>';
      }
      else
      {
-         $view->result = $v;
+         $view->result = '<div class="alert alert-success">You are successfully added to the database log in !</div>';
      }
 
 }
