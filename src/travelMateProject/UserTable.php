@@ -1,6 +1,7 @@
 <?php
 
 namespace travelMateProject;
+session_start();
 require_once __DIR__ . '/User.php';
 require_once __DIR__ . '/TableAbstract.php';
 
@@ -29,6 +30,7 @@ class UserTable extends TableAbstract {
             if($row["Username"] == $Username && $row["Password"] == $Password)
             {
                 $_SESSION["user_id"] = $row["User_id"];
+                $_SESSION["First_Name"] = $row["First_Name"];
                 $result = 1;
             }
             else
