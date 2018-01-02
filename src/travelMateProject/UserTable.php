@@ -19,13 +19,25 @@ class UserTable extends TableAbstract {
     return $userArray;
   }
 
+    //AUTH
+    public function auth($Username, $Password)
+    {
+        $results = $this->fetchAll();
+        while($row = $results->fetch())
+        {
 
-
-
-
-
-
-
+            if($row["Username"] == $Username && $row["Password"] == $Password)
+            {
+                $_SESSION["user_id"] = $row["User_id"];
+                $result = 1;
+            }
+            else
+            {
+                $result = 0 ;
+            }
+        }
+        return $result;
+    }
 
     //INSERT
     public function insertUser($data){
@@ -45,8 +57,6 @@ class UserTable extends TableAbstract {
         ));
         return $response;
     }
-
-
 
 
 }

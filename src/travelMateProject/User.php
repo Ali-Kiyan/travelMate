@@ -9,7 +9,6 @@ class User {
     $this->Last_Name = $dbrow['Last_Name'];
     $this->password = $dbrow['password'];
 }
-
   //accessors
   public function getUserId() { return $this->User_id;}
   public function getUsername() { return $this->username;}
