@@ -18,10 +18,13 @@ if(isset($_POST['Rsubmit']))
      }
      else
      {
-         $view->result = '<div class="alert alert-success">You are successfully added to the database log in !</div>';
+         $view->result = '<div class="alert alert-success">You are successfully added to the database, log in !</div>';
      }
 
 }
+
+
+
 
 require_once __DIR__ . '/Views/register.phtml';
 // require_once __DIR__ . '/Views/users.phtml';

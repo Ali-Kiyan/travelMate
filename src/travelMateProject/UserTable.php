@@ -19,6 +19,14 @@ class UserTable extends TableAbstract {
     return $userArray;
   }
 
+
+
+
+
+
+
+
+
     //INSERT
     public function insertUser($data){
         // Converting Null value of php to null value of mysql
@@ -37,5 +45,8 @@ class UserTable extends TableAbstract {
         ));
         return $response;
     }
+
+
+
 
 }

@@ -29,7 +29,32 @@ abstract class TableAbstract
         $results->execute($params);
         return $results->fetch();
     }
+    public function fetchUser($key){
+        $sql= 'SELECT * FROM ' . $this->name . ' WHERE ' . $this->primaryKey . ' = :id LIMIT 1';
+        $params = array(':id' => $key);
+        $results = $this->dbh->prepare($sql);
+        $results->execute($params);
+        return $results->fetch();
+    }
+    //AUTH
+    public function auth($Username, $Password)
+    {
+        $results = $this->fetchAll();
+        $userList = array();
+        while($row = $results->fetch())
+        {
 
+            if($row["Username"] == $Username && $row["Password"] == $Password)
+            {
+                $result = 1;
+            }
+            else
+            {
+                $result = 0 ;
+            }
+        }
+        return $result;
+    }
 
 
 }
