@@ -9,7 +9,14 @@ if(isset($_POST['Lsubmit']))
     $_SESSION["Username"] = $_POST["Username"];
     $_SESSION["Password"] = $_POST["Password"];
     $result = $database->auth($_SESSION["Username"], $_SESSION["Password"]);
-    
+    if($result)
+    {
+      header('location: ./Views/Dashboard.phtml');
+    }
+    else
+    {
+        $view->result = '<div class="alert alert-danger">Username/Password is wrong </div>';
+    }
 
 }
 
