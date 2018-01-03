@@ -15,7 +15,8 @@ if(isset($_POST['Dsubmit']))
     $respond = $locationdb->delete($_POST['Location_id']);
     if($respond)
     {
-        $view->result = '<div class="alert alert-danger">Please check your input </div>';
+        $view->result = '<div class="alert alert-success">Successfully Deleted </div>';
+        header("Location: ./locations.php");
     }
     else
     {
