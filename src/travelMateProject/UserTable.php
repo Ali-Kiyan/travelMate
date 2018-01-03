@@ -24,10 +24,11 @@ class UserTable extends TableAbstract {
     public function auth($Username, $Password)
     {
         $results = $this->fetchAll();
+
         while($row = $results->fetch())
         {
-
-            if($row["Username"] == $Username && $row["Password"] == $Password)
+            $row['Password'] = password_hash($row['Password'], PASSWORD_BCRYPT);
+            if($row["Username"] == $Username || $row["Password"] == $Password)
             {
                 $_SESSION["User_id"] = $row["User_id"];
                 $_SESSION["First_Name"] = $row["First_Name"];
@@ -66,6 +67,7 @@ class UserTable extends TableAbstract {
 
     public function editUser($data)
     {
+        $data['Password'] = password_hash($data['Password'], PASSWORD_BCRYPT);
         $sql = "UPDATE  $this->name SET  First_Name = :First_Name, Last_Name = :Last_Name, Username = :Username, Password = :Password
         WHERE User_id= :User_id";
         $result = $this->dbh->prepare($sql);
