@@ -29,8 +29,9 @@ if(isset($_SESSION['User_id']))
 
                                          if($location->getUserId() == $_SESSION["User_id"]) {
 
-                                            echo '           <form action = "" method = "POST" >
-                                                              <input type = "submit" class="btn btn-danger btn-xs" value = "Delete" name="Dsubmit">
+                                            echo '           <form action="'. $_SERVER["PHP_SELF"] .'" method = "POST" >
+                                                             <input type="hidden" name="Location_id" value="'. $location->getLocationId() . '" >
+                                                               <button type="submit" name="Dsubmit" class="btn btn-danger btn-xs">Delete</button>
                                                         </form > ';
                                              }
 

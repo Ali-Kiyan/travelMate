@@ -84,6 +84,17 @@ class UserTable extends TableAbstract {
         return $response;
 
     }
+    //DELETE USER
+
+
+    public function delete($data)
+    {
+        $sql = 'DELETE FROM' . $this->name . 'WHERE' . $this->primaryKey . ' = :id LIMIT 1';
+        $params = array(':id' => $data['User_id']);
+        $results = $this->dbh->prepare($sql);
+        $response = $results->execute($params);
+        return $response;
+    }
 
 
 }

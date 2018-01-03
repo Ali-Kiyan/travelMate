@@ -47,12 +47,25 @@ class LocationTable extends TableAbstract {
         WHERE User_id= :User_id AND Location_id= :Location_id";
         $result = $this->dbh->prepare($sql);
         $params = array(
-            'Location_id' => $data['Location_id'],
+            ':Location_id' => $data['Location_id'],
             ':User_id' => $_SESSION['User_id'],
             ':Name' => $data['Name'],
             ':Description' => $data['Description']
         );
         $response = $result->execute($params);
+        return $response;
+    }
+
+    //DELETE location
+
+
+    public function delete($key)
+    {
+
+        $sql = 'DELETE FROM ' . $this->name . ' WHERE ' . $this->primaryKey . ' = :id LIMIT 1';
+        $params = array(':id' => $key);
+        $results = $this->dbh->prepare($sql);
+        $response = $results->execute($params);
         return $response;
     }
 

@@ -26,5 +26,6 @@ if(isset($_POST['Usubmit']))
 }
 
 
+
 require_once __DIR__ . '/Views/locationprofile.phtml';
 
