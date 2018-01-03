@@ -6,24 +6,27 @@ if(isset($_SESSION['User_id']))
 ?>
     <div class="row">
 
-            <div class="container" id="locations">
+            <div class="container-fluid" id="locations">
+                <?php
 
-                    <div class="row text-center animated bounceInUp" style="display:flex; flex-wrap: wrap; color: black;">
-                <!--        <% campgrounds.forEach(function(campground){ %>-->
-                        <div class="col-md-3 col-sm-6">
-                            <div class="panel location">
-                <!--                <img class="img-thumbnail" src="../<%= campground.image %>" alt="" width="25%">-->
-                                <p>Lorem ipsum dolor sit amet.</p>
-                                <div class="caption">
-                <!--                    <h4><%= campground.name %></h4>-->
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, praesentium?</p>
+                foreach($locations as $location)
+                {
+                    echo ' <div class="text-center animated fadeInUp" style=" color: black;">
+
+
+                               <div class="col-sm-4">
+                               <div class="panel location"><p>'. $location->getName() .'</p>' .
+
+                                          '<div class="caption">
+                                    <p>' . $location->getDescription() . '</p>
                                 </div>
                                 <p>
-                                    <a href="/campgrounds/<%= campground._id %>"class="btn btn-info btn-xs btn-more">More info</a>
+                                    <a href="campgrounds<%= campground._id %>"class="btn btn-info btn-xs btn-more">More info</a>
                                 </p>
                             </div>
-                        </div>
-                <!--        <% }) %>-->
+                        </div>';
+                }
+                ?>
                     </div>
             </div>
     </div>

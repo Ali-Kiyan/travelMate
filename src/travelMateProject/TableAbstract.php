@@ -48,7 +48,7 @@ abstract class TableAbstract
 
 
 
-    public function fetchUser($key){
+    public function fetchRecord($key){
         $sql= 'SELECT * FROM ' . $this->name . ' WHERE ' . $this->primaryKey . ' = :id LIMIT 1';
         $params = array(':id' => $key);
         $results = $this->dbh->prepare($sql);

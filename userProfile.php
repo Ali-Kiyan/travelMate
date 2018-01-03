@@ -6,7 +6,7 @@ $view->pageTitle = 'Userprofile';
 require_once __DIR__ . '/vendor/autoload.php';
 
 $userdb = new travelMateProject\UserTable();
-$Current_User = $userdb->fetchUser($_SESSION['User_id']);
+$Current_User = $userdb->fetchRecord($_SESSION['User_id']);
 
 if(isset($_POST['Usubmit']))
 {
