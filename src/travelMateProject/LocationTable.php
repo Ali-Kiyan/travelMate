@@ -43,10 +43,11 @@ class LocationTable extends TableAbstract {
     public function editLocation($data)
     {
 
-        $sql = "UPDATE  $this->name SET  User_id = :User_id, Name = :Name, Description = :Description
+        $sql = "UPDATE  $this->name SET  Location_id = :Location_id, User_id = :User_id, Name = :Name, Description = :Description
         WHERE User_id= :User_id AND Location_id= :Location_id";
         $result = $this->dbh->prepare($sql);
         $params = array(
+            'Location_id' => $data['Location_id'],
             ':User_id' => $_SESSION['User_id'],
             ':Name' => $data['Name'],
             ':Description' => $data['Description']

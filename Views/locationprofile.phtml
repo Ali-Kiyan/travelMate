@@ -16,6 +16,8 @@ var_dump($_SESSION);
                 <label for="Description" class=" control-label">Description</label>
                 <input type="text" name="Description" value="<?php echo $Current_Location['Description'];?>" class="form-control half" >
             </div>
+            <input type="hidden" name="Location_id" value="<?php echo $Current_Location['Location_id'];?>" >
+
             <br>
             <br>
             <button type="submit" name="Usubmit" class="btn btn-info Brown center">Update</button>
