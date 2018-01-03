@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travelMateSchema.graffle" afterPath="$PROJECT_DIR$/travelMateSchema.graffle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/login.phtml" afterPath="$PROJECT_DIR$/Views/login.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/template/logout.php" afterPath="$PROJECT_DIR$/Views/template/logout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/template/nav.phtml" afterPath="$PROJECT_DIR$/Views/template/nav.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/userprofile.phtml" afterPath="$PROJECT_DIR$/Views/userprofile.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/locationprofile.phtml" afterPath="$PROJECT_DIR$/Views/locationprofile.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/locations.phtml" afterPath="$PROJECT_DIR$/Views/locations.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationProfile.php" afterPath="$PROJECT_DIR$/locationProfile.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,36 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="locations.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/locations.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding>
-                <marker date="1515005203265" expanded="true" signature="391:405" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="392:405" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="406:1010" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="462:1010" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="522:979" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="624:742" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="778:823" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="778:944" ph="..." />
-                <marker date="1515005203265" expanded="true" signature="1013:1049" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,21 +48,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Views/template/nav.phtml">
+      <file leaf-file-name="locations.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locations.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/template/logout.php">
+      <file leaf-file-name="locations.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/locations.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="389">
+              <caret line="23" column="107" lean-forward="false" selection-start-line="23" selection-start-column="107" selection-end-line="23" selection-end-column="107" />
+              <folding>
+                <marker date="1515011674004" expanded="true" signature="391:405" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="392:405" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="406:1059" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="462:1059" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="522:778" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="522:1028" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="624:665" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="624:742" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="778:780" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="778:858" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="778:859" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="778:957" ph="..." />
+                <marker date="1515011674004" expanded="true" signature="778:993" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/template/nav.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locationprofile.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="89" lean-forward="true" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -120,21 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locationprofile.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="userProfile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userProfile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locationProfile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locationProfile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,16 +176,17 @@
         <option value="$PROJECT_DIR$/userProfile.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/LocationTable.php" />
         <option value="$PROJECT_DIR$/Views/locationprofile.php" />
-        <option value="$PROJECT_DIR$/locationProfile.php" />
         <option value="$PROJECT_DIR$/locations.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/Location.php" />
-        <option value="$PROJECT_DIR$/Views/locations.phtml" />
         <option value="$PROJECT_DIR$/Views/template/logout.php" />
         <option value="$PROJECT_DIR$/Dashboard.php" />
         <option value="$PROJECT_DIR$/Views/login.phtml" />
         <option value="$PROJECT_DIR$/Views/userprofile.phtml" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/Views/locationprofile.phtml" />
+        <option value="$PROJECT_DIR$/locationProfile.php" />
         <option value="$PROJECT_DIR$/Views/template/nav.phtml" />
+        <option value="$PROJECT_DIR$/Views/locations.phtml" />
       </list>
     </option>
   </component>
@@ -375,12 +378,12 @@
       <workItem from="1514825587280" duration="15643000" />
       <workItem from="1514863984811" duration="1385000" />
       <workItem from="1514919067101" duration="16524000" />
-      <workItem from="1514997933659" duration="7353000" />
+      <workItem from="1514997933659" duration="10044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50417000" />
+    <option name="totallyTimeSpent" value="53108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -724,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locationProfile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/travelMateProject/UserTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -770,40 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/locations.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <marker date="1515005203265" expanded="true" signature="391:405" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="392:405" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="406:1010" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="462:1010" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="522:979" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="624:742" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="778:823" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="778:944" ph="..." />
-            <marker date="1515005203265" expanded="true" signature="1013:1049" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/template/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -836,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userProfile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/userprofile.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -860,11 +813,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/userProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="89" lean-forward="true" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Views/template/nav.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/locations.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="23" column="107" lean-forward="false" selection-start-line="23" selection-start-column="107" selection-end-line="23" selection-end-column="107" />
+          <folding>
+            <marker date="1515011674004" expanded="true" signature="391:405" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="392:405" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="406:1059" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="462:1059" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="522:778" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="522:1028" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="624:665" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="624:742" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="778:780" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="778:858" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="778:859" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="778:957" ph="..." />
+            <marker date="1515011674004" expanded="true" signature="778:993" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

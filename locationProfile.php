@@ -10,13 +10,15 @@ $Current_Location = $locationdb->fetchRecord($_GET['Location_id']);
 
 if(isset($_POST['Usubmit']))
 {
+
     $locationdb = new travelMateProject\LocationTable();
-    $locationinfo["Location_id"] = $_GET["Location_id"];
-    $locationinfo["Name"] = $_POST["Username"];
-    $locationinfo["Description"] = $_POST["Password"];
+    $Current_Location = $locationdb->fetchRecord( $Current_Location);
 
+    $locationinfo["Location_id"] = $Current_Location["Location_id"];
+    $locationinfo["Name"] = $_POST["Name"];
+    $locationinfo["Description"] = $_POST["Description"];
 
-    $respond = $locationdb->editUser($locationinfo);
+    $respond = $locationdb->editLocation($locationinfo);
 
     if($respond)
     {

@@ -21,7 +21,8 @@ if(isset($_SESSION['User_id']))
                                     <p>' . $location->getDescription() . '</p>
                                 </div>
                                 <p>
-                                    <a href="campgrounds<%= campground._id %>"class="btn btn-info btn-xs btn-more">More info</a>
+                                    <a href="./locationprofile.php?Location_id='. $location->getLocationId() .'" class="btn btn-info btn-xs btn-more">More info</a>
+             
                                 </p>
                             </div>
                         </div>';
