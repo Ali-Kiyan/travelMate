@@ -11,7 +11,7 @@ if(isset($_SESSION['User_id']))
 
                 foreach($locations as $location)
                 {
-                    echo ' <div class="text-center animated fadeInUp" style=" color: black;">
+                    echo ' <div class="text-center animated fadeInDown" style=" color: black;">
 
 
                                <div class="col-sm-4">
@@ -21,10 +21,11 @@ if(isset($_SESSION['User_id']))
                                     <p>' . $location->getDescription() . '</p>
                                 </div>
                                 <p>
-                                    <a href="./showLocation.php?Location_id='. $location->getLocationId() .'" class="btn btn-info btn-xs">More info</a>
-                                    <a href="./locationprofile.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-xs">Edit</a>
-                                    ';
-         
+                                    <a href="./showLocation.php?Location_id='. $location->getLocationId() .'" class="btn btn-info btn-xs">More info</a>';
+
+                                    if($location->getUserId() == $_SESSION["User_id"]) {
+                                   echo '<a href="./locationprofile.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-xs">Edit</a>';
+                                    }
 
                                          if($location->getUserId() == $_SESSION["User_id"]) {
 
