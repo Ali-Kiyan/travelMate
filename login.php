@@ -6,9 +6,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 if(isset($_POST['Lsubmit']))
 {
     $database = new travelMateProject\UserTable();
-    $_SESSION["Username"] = $_POST["Username"];
-    $_SESSION["Password"] = $_POST["Password"];
-    $result = $database->auth($_SESSION["Username"], $_SESSION["Password"]);
+    $result = $database->auth($_POST["Username"], $_POST["Password"]);
     if($result)
     {
       header('location: ./Views/Dashboard.phtml');
@@ -20,6 +18,7 @@ if(isset($_POST['Lsubmit']))
 
 }
 
+var_dump($_SESSION);
 
 require_once __DIR__ . '/Views/login.phtml';
 

@@ -30,6 +30,8 @@ class UserTable extends TableAbstract {
             $row['Password'] = password_hash($row['Password'], PASSWORD_BCRYPT);
             if($row["Username"] == $Username || $row["Password"] == $Password)
             {
+                $_SESSION["Username"] = $row["Username"];
+                $_SESSION["Password"] = $row["Password"];
                 $_SESSION["User_id"] = $row["User_id"];
                 $_SESSION["First_Name"] = $row["First_Name"];
                 $result = 1;

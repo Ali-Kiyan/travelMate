@@ -1,9 +1,10 @@
 <?php
 require_once __dir__ . "/Views/template/included_functions.php";
+confirm_logged_in ();
 $view = new stdClass();
 $view->pageTitle = 'Userprofile';
 require_once __DIR__ . '/vendor/autoload.php';
-confirm_logged_in ();
+
 $userdb = new travelMateProject\UserTable();
 $Current_User = $userdb->fetchUser($_SESSION['User_id']);
 

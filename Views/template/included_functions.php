@@ -7,6 +7,7 @@ function redirect_to($new_location) {
 }
 
 function confirm_logged_in () {
+
     if (!isset($_SESSION['Username']) && !isset($_SESSION['Password'])) {
         redirect_to("./login.php");
     }
