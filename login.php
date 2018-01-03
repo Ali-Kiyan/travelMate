@@ -9,7 +9,7 @@ if(isset($_POST['Lsubmit']))
     $result = $database->auth($_POST["Username"], $_POST["Password"]);
     if($result)
     {
-      header('location: ./Views/Dashboard.phtml');
+      header('location: ./Dashboard.php');
     }
     else
     {
