@@ -566,4 +566,10 @@ label{
   margin-top: 4%;
   padding: 10%;
 }
+.location{
+  padding-bottom: 0px;
+}
+#locations{
+  margin-top: 5%;
+}
 
