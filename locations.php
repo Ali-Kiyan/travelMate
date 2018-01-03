@@ -13,10 +13,9 @@ if(isset($_POST['Dsubmit']))
 
     $locationdb = new travelMateProject\LocationTable();
     $respond = $locationdb->delete($_POST['Location_id']);
-
     if($respond)
     {
-        redirect_to("./locations.php");
+        $view->result = '<div class="alert alert-danger">Please check your input </div>';
     }
     else
     {
