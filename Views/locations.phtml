@@ -21,8 +21,19 @@ if(isset($_SESSION['User_id']))
                                     <p>' . $location->getDescription() . '</p>
                                 </div>
                                 <p>
-                                    <a href="./locationprofile.php?Location_id='. $location->getLocationId() .'" class="btn btn-info btn-xs btn-more">More info</a>
-             
+                                    <a href="./showLocation.php?Location_id='. $location->getLocationId() .'" class="btn btn-info btn-xs">More info</a>
+                                    <a href="./locationprofile.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-xs">Edit</a>
+                                    ';
+         
+
+                                         if($location->getUserId() == $_SESSION["User_id"]) {
+
+                                            echo '           <form action = "" method = "POST" >
+                                                              <input type = "submit" class="btn btn-danger btn-xs" value = "Delete" name="Dsubmit">
+                                                        </form > ';
+                                             }
+
+                                    echo '
                                 </p>
                             </div>
                         </div>';
