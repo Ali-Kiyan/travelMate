@@ -29,7 +29,7 @@ class UserTable extends TableAbstract {
 
             if($row["Username"] == $Username && $row["Password"] == $Password)
             {
-                $_SESSION["user_id"] = $row["User_id"];
+                $_SESSION["User_id"] = $row["User_id"];
                 $_SESSION["First_Name"] = $row["First_Name"];
                 $result = 1;
             }
@@ -58,6 +58,26 @@ class UserTable extends TableAbstract {
             ':Password' => $data['Password']
         ));
         return $response;
+    }
+
+
+    //EDIT
+
+    public function editUser($data)
+    {
+        $sql = "UPDATE  $this->name SET  First_Name = :First_Name, Last_Name = :Last_Name, Username = :Username, Password = :Password
+        WHERE User_id= :User_id";
+        $result = $this->dbh->prepare($sql);
+        $params = array(
+            ':User_id' => $_SESSION['User_id'],
+            ':First_Name' => $data['First_Name'],
+            ':Last_Name' => $data['Last_Name'],
+            ':Username' => $data['Username'],
+            ':Password' => $data['Password']
+        );
+        $response = $result->execute($params);
+        return $response;
+
     }
 
 

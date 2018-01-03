@@ -31,16 +31,19 @@ abstract class TableAbstract
     }
 
 
-    public function delete($key)
+
+
+    //DELETE USER
+
+
+    public function delete($data)
     {
         $sql = 'DELETE FROM' . $this->name . 'WHERE' . $this->primaryKey . ' = :id LIMIT 1';
-        $params = array(':id' => $key);
+        $params = array(':id' => $data['User_id']);
         $results = $this->dbh->prepare($sql);
         $response = $results->execute($params);
         return $response;
     }
-
-
 
 
 

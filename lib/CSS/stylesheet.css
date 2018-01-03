@@ -471,6 +471,7 @@ body {
     background: #385265;
     color: whitesmoke;
 }
+
 .btn{
   font-size: 1rem;
   font-weight: 500;
@@ -557,3 +558,12 @@ label{
 .center{
   margin: 0 auto 0 auto;
 }
+.text-center{
+  text-align: center;
+}
+#userProfile{
+  background-color: #50564f;
+  margin-top: 4%;
+  padding: 10%;
+}
+

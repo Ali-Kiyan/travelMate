@@ -24,7 +24,5 @@ if(isset($_POST['Rsubmit']))
 }
 
 
-
-
 require_once __DIR__ . '/Views/register.phtml';
 // require_once __DIR__ . '/Views/users.phtml';
