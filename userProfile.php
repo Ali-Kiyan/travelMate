@@ -1,4 +1,5 @@
 <?php
+require_once __dir__ . "/Views/template/included_functions.php";
 $view = new stdClass();
 $view->pageTitle = 'Userprofile';
 require_once __DIR__ . '/vendor/autoload.php';
@@ -17,7 +18,7 @@ if(isset($_POST['Usubmit']))
 
     if($respond)
     {
-        
+        redirect_to("./UserProfile.php");
         $view->result = '<div class="alert alert-success">Successfully Updated </div>';
     }
     else

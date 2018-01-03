@@ -45,10 +45,11 @@ class UserTable extends TableAbstract {
     public function insertUser($data){
         // Converting Null value of php to null value of mysql
         $data["First_Name"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
-        $data["Last_Name"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
-        $data["Username"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
-        $data["Password"] == null ? $data["First_Name"] = NULL : $data["First_Name"];
-
+        $data["Last_Name"] == null ? $data["Last_Name"] = NULL : $data["Last_Name"];
+        $data["Username"] == null ? $data["Username"] = NULL : $data["Username"];
+        $data["Password"] == null ? $data["Password"] = NULL : $data["Password"];
+        //encrypting pass with BCRYPT algorithm
+        $data['Password'] = password_hash($data['Password'], PASSWORD_BCRYPT);
         $sql = "INSERT INTO $this->name (First_Name, Last_Name,Username, Password) VALUES (:First_Name, :Last_Name, :Username, :Password)";
         $results = $this->dbh->prepare($sql);
         $response  = $results->execute(array(
