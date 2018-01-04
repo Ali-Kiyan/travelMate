@@ -6,6 +6,25 @@ if(isset($_SESSION['User_id']))
 
 echo $view->result;
 ?>
+
+<div class="row">
+    <div class="container-fluid text-center animated fadeIn" id="createLocation">
+
+        <div class="col-lg-12 center">
+            <div class="panel location" style="background-color: #50564f; font-size: 18px;">
+                <p>Create new Location</p>
+                <div class="caption">
+                    <a href="./showLocation.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-lg">More info</a>
+                </div>
+            </div>
+    </div>
+
+    </div>
+
+
+</div>
+
+
     <div class="row">
 
             <div class="container-fluid" id="locations">
@@ -17,9 +36,8 @@ echo $view->result;
 
 
                                <div class="col-sm-4">
-                               <div class="panel location"><p>'. $location->getName() .'</p>' .
-
-                                          '<div class="caption">
+                                <div class="panel location"><p>'. $location->getName() .'</p>' .
+                                   '<div class="caption">
                                     <p>' . $location->getDescription() . '</p>
                                 </div>
                                 <p>
