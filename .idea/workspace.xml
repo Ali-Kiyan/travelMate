@@ -50,8 +50,8 @@
       <file leaf-file-name="weatherForecast.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weatherForecast.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/CSS/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="593" column="13" lean-forward="false" selection-start-line="593" selection-start-column="13" selection-end-line="593" selection-end-column="13" />
+            <state relative-caret-position="657">
+              <caret line="596" column="0" lean-forward="true" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,11 +120,22 @@
       <file leaf-file-name="weatherForecast.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/weatherForecast.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="38" column="88" lean-forward="false" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
+            <state relative-caret-position="147">
+              <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
               <folding>
-                <marker date="1515101071224" expanded="true" signature="480:684" ph="..." />
-                <marker date="1515101071224" expanded="true" signature="717:909" ph="..." />
+                <element signature="n#style#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+                <marker date="1515104618884" expanded="true" signature="480:684" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="717:909" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="1660:2727" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="1673:1696" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="1673:1809" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="1822:1845" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="1822:1974" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="1987:2156" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="2169:2336" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="2349:2529" ph="..." />
+                <marker date="1515104618884" expanded="true" signature="2542:2710" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,6 +168,7 @@
       <find>brown</find>
       <find>$_SESSION['Password'] = &quot;&quot;;</find>
       <find>f</find>
+      <find>be</find>
       <find>use</find>
     </findStrings>
   </component>
@@ -200,8 +212,8 @@
         <option value="$PROJECT_DIR$/weatherForcast.php" />
         <option value="$PROJECT_DIR$/Views/weatherForcast.phtml" />
         <option value="$PROJECT_DIR$/Views/template/nav.phtml" />
-        <option value="$PROJECT_DIR$/weatherForecast.php" />
         <option value="$PROJECT_DIR$/lib/CSS/stylesheet.css" />
+        <option value="$PROJECT_DIR$/weatherForecast.php" />
         <option value="$PROJECT_DIR$/Views/weatherForecast.phtml" />
       </list>
     </option>
@@ -462,12 +474,12 @@
       <workItem from="1514997933659" duration="18203000" />
       <workItem from="1515066686872" duration="1001000" />
       <workItem from="1515078096405" duration="440000" />
-      <workItem from="1515091782234" duration="4583000" />
+      <workItem from="1515091782234" duration="8031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67291000" />
+    <option name="totallyTimeSpent" value="70739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -851,14 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locationProfile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/travelMateProject/UserTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
@@ -869,27 +873,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/CSS/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="593" column="13" lean-forward="false" selection-start-line="593" selection-start-column="13" selection-end-line="593" selection-end-column="13" />
+        <state relative-caret-position="657">
+          <caret line="596" column="0" lean-forward="true" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weatherForecast.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/weatherForecast.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="38" column="88" lean-forward="false" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
+        <state relative-caret-position="147">
+          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
           <folding>
-            <marker date="1515101071224" expanded="true" signature="480:684" ph="..." />
-            <marker date="1515101071224" expanded="true" signature="717:909" ph="..." />
+            <element signature="n#style#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1515104618884" expanded="true" signature="480:684" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="717:909" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="1660:2727" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="1673:1696" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="1673:1809" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="1822:1845" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="1822:1974" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="1987:2156" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="2169:2336" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="2349:2529" ph="..." />
+            <marker date="1515104618884" expanded="true" signature="2542:2710" ph="..." />
           </folding>
         </state>
       </provider>
