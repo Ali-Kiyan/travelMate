@@ -566,6 +566,16 @@ label{
   margin-top: 4%;
   padding: 10%;
 }
+#locationProfile{
+  background-color: #50564f;
+  margin-top: 4%;
+  padding: 10%;
+}
+#weather{
+  background-color: #2f2c2b;
+  margin-top: 4%;
+  padding: 10%;
+}
 .location{
   padding-bottom: 0px;
 }

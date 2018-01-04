@@ -1,0 +1,38 @@
+<?php
+require_once __dir__ . "/template/header.phtml";
+require_once __dir__ . "/template/nav.phtml";
+?>
+
+
+
+<?php
+require_once __dir__ . "/template/footer.phtml";
+?>
+
+
+
+<div class="well col-sm-6 col-sm-offset-3 animated bounceInDown" id="weather">
+
+    <form class="form-horizontal" role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
+
+
+        <div class="form-group">
+            <label for="Country" class=" control-label">Country</label>
+            <input type="text" name="Country" class="form-control half" placeholder="Type your desired Country ...">
+        </div>
+        <div class="form-group">
+            <label for="City" class=" control-label">City</label>
+            <input type="text" name="City" class="form-control half" placeholder="Type your desired City ...">
+        </div>
+
+        <button type="submit" name="Fsubmit" class="btn btn-info Brown center">Forcast</button>
+        <a href="./Dashboard.php" class="btn btn-warning Brown center">Back to Dashboard</a>
+
+    </form>
+
+    <?php echo $view->result; ?>
+
+</div>
+
+
+
