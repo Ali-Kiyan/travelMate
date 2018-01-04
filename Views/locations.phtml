@@ -6,15 +6,19 @@ if(isset($_SESSION['User_id']))
 
 echo $view->result;
 ?>
-
+<?php
+if(isset($_SESSION["User_id"])) {
+    echo '  
 <div class="row">
     <div class="container-fluid text-center animated fadeIn" id="createLocation">
-
         <div class="col-lg-12 center">
             <div class="panel location" style="background-color: #50564f; font-size: 18px;">
                 <p>Create new Location</p>
                 <div class="caption">
-                    <a href="./showLocation.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-lg">More info</a>
+                    <form action="'. $_SERVER["PHP_SELF"] .'" method = "GET" name="deleteLocation">
+                    <button type="submit" name="Csubmit" class="btn btn-success btn-md">Create</button>
+                    </form > ';
+                    } ?>
                 </div>
             </div>
     </div>

@@ -25,5 +25,10 @@ if(isset($_POST['Dsubmit']))
 
 }
 
+if(isset($_GET['Csubmit']))
+{
+
+}
+
 require_once __DIR__ . '/Views/locations.phtml';
 
