@@ -1,7 +1,19 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ali_Kiyan
- * Date: 05/01/2018
- * Time: 19:59
- */
+require_once __DIR__ . '/vendor/autoload.php';
+
+    $database = new travelMateProject\ChatTable();
+    $sql = 'SELECT * FROM Chat';
+    $results = $database->getdbh()->prepare($sql);
+    $results->execute();
+    $ChatArray = array();
+    while($row = $results->fetch())
+    {
+        $chatArray[] = $row;
+    }
+    foreach ($chatArray as $key => $value)
+    {
+        echo $value['Body'] . '</br>';
+    }
+
+
+

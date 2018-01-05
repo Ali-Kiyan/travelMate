@@ -1,7 +1,26 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ali_Kiyan
- * Date: 05/01/2018
- * Time: 20:00
- */
+require_once __dir__ . "/Views/template/header.phtml"
+?>
+<script src="./lib/JS/jquery-3.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#messages").load('ajaxLoad.php');
+        $("#post").submit(function() {
+            return false;
+        });
+    });
+
+</script>
+
+<div id="messages">
+
+</div>
+<form action="POST" id="post" >
+<label> Message</label>
+    <input type="text" maxlength="255" name="messages" />
+    <input type="submit" class="btn Brown" value="Post Message"/>
+
+</form>
+
+<?php require_once __dir__ . "/Views/template/footer.phtml"
+?>

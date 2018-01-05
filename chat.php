@@ -1,7 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ali_Kiyan
- * Date: 05/01/2018
- * Time: 19:31
- */
+$view = new stdClass();
+$view->pageTitle = 'Chat';
+require_once __DIR__ . '/vendor/autoload.php';
+
+
+
+
+
+
+
+
+
+//require_once __DIR__ . '/Views/chat.phtml';
+

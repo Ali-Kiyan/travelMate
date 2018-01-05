@@ -1,0 +1,17 @@
+<?php require_once __dir__ . "/template/header.phtml"
+?>
+<script src="../lib/JS/jquery-3.2.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+      $('messages').load('ajaxLoad.php');
+
+    });
+</script>
+
+<div id="messages">
+
+</div>
+<label> Message</label><input type="text" maxlength="255" name="messages" />
+
+<?php require_once __dir__ . "/template/footer.phtml"
+?>

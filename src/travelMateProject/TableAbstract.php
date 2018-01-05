@@ -14,6 +14,7 @@ abstract class TableAbstract
         $this->dbh = $this->db->getDbh();
     }
 
+
     public function fetchAll()
     {
         $sql = 'SELECT * FROM ' . $this->name;
