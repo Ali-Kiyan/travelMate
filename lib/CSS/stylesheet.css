@@ -588,11 +588,14 @@ label{
 .center{
   margin: 0 auto 0 auto;
 }
-
-
+.black{
+  color: black !important;
+}
 #weatherResult{
   background-color: #424242;
   margin-top: 4%;
 font-size: 1.4rem;
-
+}
+.right{
+  float: right !important;
 }
