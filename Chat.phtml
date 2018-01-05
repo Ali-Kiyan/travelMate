@@ -9,15 +9,14 @@ require_once __dir__ . "/Views/template/header.phtml"
        window.location.reload();
     }
     $(document).ready(function() {
-        $("#messages").load('ajaxLoad.php');
+        $("#messages").load('./src/travelMateProject/ajaxLoadModel.php');
         $("#userArea").submit(function() {
-            $.post('ajaxPost.php', $("#userArea").serialize(), function(data){
+            $.post('./src/travelMateProject/ajaxPostModel.php', $("#userArea").serialize(), function(data){
                 $('#messages').append('<div class="Brown animated fadeInLeft" style="padding: 10px; font-size: 1.4rem; border-radius: 50px !important; margin-bottom: 14px;">' + data + '</div>');
                 setTimeout(refresh, 1000);
                 function refresh() {
-                    $("#messages").load('ajaxLoad.php');
+                    $("#messages").load('./src/travelMateProject/ajaxLoadModel.php');
                 }
-
                 $('#chattxt').val('');
 
             });
