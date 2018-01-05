@@ -26,7 +26,6 @@ class LocationTable extends TableAbstract {
         // Converting Null value of php to null value of mysql
         $data["Name"] == null ? $data["Name"] = NULL : $data["Name"];
         $data["Description"] == null ? $data["Description"] = NULL : $data["Description"];
-
         $sql = "INSERT INTO $this->name (User_id, Name, Description) VALUES (:User_id, :Name, :Description)";
         $results = $this->dbh->prepare($sql);
         $response  = $results->execute(array(
@@ -43,17 +42,28 @@ class LocationTable extends TableAbstract {
     public function editLocation($data)
     {
 
-        $sql = "UPDATE  $this->name SET  Location_id = :Location_id, User_id = :User_id, Name = :Name, Description = :Description
+        // Converting Null value of php to null value of mysql
+        $data["Name"] == null ? $data["Name"] = NULL : $data["Name"];
+        $data["Description"] == null ? $data["Description"] = NULL : $data["Description"];
+        if($data["Name"] != NULL && $data["Description"] != NULL )
+        {
+            $sql = "UPDATE  $this->name SET  Location_id = :Location_id, User_id = :User_id, Name = :Name, Description = :Description
         WHERE User_id= :User_id AND Location_id= :Location_id";
-        $result = $this->dbh->prepare($sql);
-        $params = array(
-            ':Location_id' => $data['Location_id'],
-            ':User_id' => $_SESSION['User_id'],
-            ':Name' => $data['Name'],
-            ':Description' => $data['Description']
-        );
-        $response = $result->execute($params);
-        return $response;
+            $result = $this->dbh->prepare($sql);
+            $params = array(
+                ':Location_id' => $data['Location_id'],
+                ':User_id' => $_SESSION['User_id'],
+                ':Name' => $data['Name'],
+                ':Description' => $data['Description']
+            );
+            $response = $result->execute($params);
+            return $response;
+        }
+        else
+        {
+            return 0;
+        }
+
     }
 
     //DELETE location
