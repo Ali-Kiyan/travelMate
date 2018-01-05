@@ -12,7 +12,7 @@ require_once __DIR__ . '/vendor/autoload.php';
     }
     foreach ($chatArray as $key => $value)
     {
-        echo $value['Body'] . '</br>';
+        echo '<div class="Brown">' . $value['Body'] . '</br>' . '</div>';
     }
 
 

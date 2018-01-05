@@ -5,7 +5,10 @@ require_once __dir__ . "/Views/template/header.phtml"
 <script>
     $(document).ready(function() {
         $("#messages").load('ajaxLoad.php');
-        $("#post").submit(function() {
+        $("#userArea").submit(function() {
+            $.post('ajaxPost.php', $("#userArea").serialize(), function(data){
+                $('#messages').append('<div class="Brown btn-lg animated fadeInRight">' + data + '</div>');
+            });
             return false;
         });
     });
@@ -15,7 +18,7 @@ require_once __dir__ . "/Views/template/header.phtml"
 <div id="messages">
 
 </div>
-<form action="POST" id="post" >
+<form action="POST" id="userArea" >
 <label> Message</label>
     <input type="text" maxlength="255" name="messages" />
     <input type="submit" class="btn Brown" value="Post Message"/>
