@@ -2,7 +2,7 @@
 require_once __dir__ . "/Views/template/included_functions.php";
 confirm_logged_in ();
 $view = new stdClass();
-$view->pageTitle = 'Locationprofile';
+$view->pageTitle = 'Location profile';
 require_once __DIR__ . '/vendor/autoload.php';
 
 $locationdb = new travelMateProject\LocationTable();

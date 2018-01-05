@@ -3,7 +3,6 @@ $view = new stdClass();
 $view->pageTitle = 'Locations';
 require_once __DIR__ . '/vendor/autoload.php';
 require_once __dir__ . "/Views/template/included_functions.php";
-confirm_logged_in ();
 
     $database = new travelMateProject\LocationTable();
     $locations = $database->fetchAllLocations();

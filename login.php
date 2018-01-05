@@ -18,7 +18,5 @@ if(isset($_POST['Lsubmit']))
 
 }
 
-var_dump($_SESSION);
-
 require_once __DIR__ . '/Views/login.phtml';
 
