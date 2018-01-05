@@ -12,10 +12,11 @@ require_once __DIR__ . '/vendor/autoload.php';
     }
     foreach ($chatArray as $key => $value)
     {
-        echo '<div class="Brown">' . $value['Body'];
+        echo'<div class="chatStyle">';
+        echo '<div class="Brown" style="padding: 10px; font-size: 1.4rem;border-radius: 50px !important; margin-bottom: 14px;">' . $value['Body'];
+        echo '<div class="right">' . substr((string)$value['Created_at'],11,20) . '</br>' . '</div>';
+        echo'</div>';
 
-        echo '<div class="Brown right">' . substr((string)$value['Created_at'],11,20) . '</br>' . '</div>';
     }
-
 
 
