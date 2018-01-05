@@ -7,23 +7,21 @@ require_once __dir__ . "/Views/template/header.phtml"
         $("#messages").load('ajaxLoad.php');
         $("#userArea").submit(function() {
             $.post('ajaxPost.php', $("#userArea").serialize(), function(data){
-                $('#messages').append('<div class="Brown btn-lg animated fadeInRight">' + data + '</div>');
+                $('#messages').append('<div class="Brown btn-lg animated fadeInLeft">' + data + '</div>');
+                $('#chattxt').val('');
             });
             return false;
         });
     });
-
 </script>
-
-<div id="messages">
-
-</div>
-<form action="POST" id="userArea" >
-<label> Message</label>
-    <input type="text" maxlength="255" name="messages" />
+<form action="POST" id="userArea" class="col-sm-8 col-sm-offset-2">
+    <div class="form-group">
+    <label>Message</label>
+    <input type="text" class="form-control" name="messages" id="chattxt"/>
     <input type="submit" class="btn Brown" value="Post Message"/>
-
+    </div>
 </form>
-
+<div id="messages" class="col-sm-8 col-sm-offset-2">
+</div>
 <?php require_once __dir__ . "/Views/template/footer.phtml"
 ?>

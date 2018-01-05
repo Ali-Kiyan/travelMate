@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chat.phtml" afterPath="$PROJECT_DIR$/Chat.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxLoad.php" afterPath="$PROJECT_DIR$/ajaxLoad.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajaxPost.php" afterPath="$PROJECT_DIR$/ajaxPost.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chat.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chat.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chat.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -36,14 +36,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajaxLoad.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajaxLoad.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ajaxLoad.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
               <folding>
-                <marker date="1515187575961" expanded="true" signature="117:134" ph="SELECT * FRO... CHAT" />
-                <marker date="1515187575961" expanded="true" signature="117:135" ph="SELECT * FRO... Chat" />
+                <marker date="1515190953047" expanded="true" signature="117:134" ph="SELECT * FRO... CHAT" />
+                <marker date="1515190953047" expanded="true" signature="117:135" ph="SELECT * FRO... Chat" />
+                <marker date="1515190953047" expanded="true" signature="398:432" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,7 +77,7 @@
       <file leaf-file-name="ChatTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/travelMateProject/ChatTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="402">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <marker date="1515184470624" expanded="true" signature="873:964" ph="INSERT INTO ${$this-&gt;name}... " />
@@ -161,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/LocationTable.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/TableAbstract.php" />
-        <option value="$PROJECT_DIR$/ajaxLoad.php" />
         <option value="$PROJECT_DIR$/ajaxPost.php" />
         <option value="$PROJECT_DIR$/Chat.phtml" />
+        <option value="$PROJECT_DIR$/ajaxLoad.php" />
       </list>
     </option>
   </component>
@@ -363,12 +364,12 @@
       <workItem from="1515066686872" duration="1001000" />
       <workItem from="1515078096405" duration="440000" />
       <workItem from="1515091782234" duration="14271000" />
-      <workItem from="1515176310813" duration="9023000" />
+      <workItem from="1515176310813" duration="10645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86002000" />
+    <option name="totallyTimeSpent" value="87624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -754,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/travelMateProject/ChatTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="402">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
           <folding>
             <marker date="1515184470624" expanded="true" signature="873:964" ph="INSERT INTO ${$this-&gt;name}... " />
@@ -782,22 +783,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajaxLoad.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <marker date="1515187575961" expanded="true" signature="117:134" ph="SELECT * FRO... CHAT" />
-            <marker date="1515187575961" expanded="true" signature="117:135" ph="SELECT * FRO... Chat" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chat.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajaxLoad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+          <folding>
+            <marker date="1515190953047" expanded="true" signature="117:134" ph="SELECT * FRO... CHAT" />
+            <marker date="1515190953047" expanded="true" signature="117:135" ph="SELECT * FRO... Chat" />
+            <marker date="1515190953047" expanded="true" signature="398:432" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
