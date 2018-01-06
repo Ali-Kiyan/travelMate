@@ -1,7 +1,7 @@
 <?php
-require_once __dir__ . "/Views/template/header.phtml";
 require_once __dir__ . "/Views/template/included_functions.php";
 confirm_logged_in ();
+require_once __dir__ . "/Views/template/header.phtml";
 if(isset($_SESSION['User_id']))
 {
     require_once __dir__ . "/Views/template/nav.phtml";

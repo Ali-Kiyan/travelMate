@@ -1,5 +1,6 @@
 <?php
-
+require_once __dir__ . "/Views/template/included_functions.php";
+confirm_logged_in ();
 if(isset($_GET))
 {
 
