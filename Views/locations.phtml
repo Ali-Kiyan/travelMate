@@ -72,8 +72,7 @@ if(isset($_SESSION["User_id"])) {
                                    '<div class="caption">
                                     <p>' . $location->getDescription() . '</p>
                                 </div>
-                                <p>
-                                    <a href="./showLocation.php?Location_id='. $location->getLocationId() .'" class="btn btn-info btn-xs">More info</a>';
+                                <p>';
 
                                     if($location->getUserId() == $_SESSION["User_id"]) {
                                    echo '<a href="./locationprofile.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-xs">Edit</a>';
