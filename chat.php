@@ -13,7 +13,8 @@ if(isset($_SESSION['User_id']))
     <div class="form-group">
     <label>Message</label>
     <input type="text" class="form-control" name="messages" id="chattxt" required/>
-    <input type="hidden"  name="User_id" value="<?php $_SESSION['User_id'] ?>"/>
+    <input type="hidden"  name="User_id" value="<?php echo $_SESSION['User_id']; ?>"/>
+    <input type="hidden"  name="Username" value="<?php echo $_SESSION['Username']; ?>"/>
     <input type="submit" class="btn Brown" value="Post Message"/>
     </div>
 </form>
