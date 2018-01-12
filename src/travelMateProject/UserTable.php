@@ -9,10 +9,9 @@ require_once __DIR__ . '/TableAbstract.php';
 class UserTable extends TableAbstract {
   protected $name = 'User';
   protected $primaryKey = 'User_id';
-
   public function fetchAllUsers() {
     $results = $this->fetchAll();
-//    var_dump($results);
+
     $userArray = array();
     while($row = $results->fetch()) {
       $userArray[] = new User($row);
@@ -27,21 +26,16 @@ class UserTable extends TableAbstract {
 
         while($row = $results->fetch())
         {
-            $row['Password'] = password_hash($row['Password'], PASSWORD_BCRYPT);
-            if($row["Username"] == $Username || $row["Password"] == $Password)
+            if($row["Username"] == $Username && password_verify($Password, $row["Password"]))
             {
                 $_SESSION["Username"] = $row["Username"];
                 $_SESSION["Password"] = $row["Password"];
                 $_SESSION["User_id"] = $row["User_id"];
                 $_SESSION["First_Name"] = $row["First_Name"];
-                $result = 1;
-            }
-            else
-            {
-                $result = 0 ;
+                return $result = 1;
             }
         }
-        return $result;
+
     }
 
     //INSERT
