@@ -4,8 +4,8 @@ confirm_logged_in ();
 if(isset($_GET))
 {
 
-$Country = $_GET['Country'];
-$City = $_GET['City'];
+$Country = trim($_GET['Country']);
+$City = trim($_GET['City']);
 //using open weather API
 $api_url = "https://api.openweathermap.org/data/2.5/forecast?q=" . $City . "," . $Country . "&appid=e4b204037b59965c815e80d927e51338";
 $weather_data = file_get_contents($api_url);
