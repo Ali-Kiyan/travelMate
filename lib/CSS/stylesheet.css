@@ -16,6 +16,7 @@ html {
 body {
   margin: 0;
   font-family: 'Encode Sans Expanded', sans-serif;
+  overflow-x: hidden !important;
 }
 .navbar {
   margin-bottom: 0 !important;
@@ -616,5 +617,16 @@ font-size: 1.4rem;
 .name{
   font-weight: bold;
   font-size: 20px;
-
+  padding: 2%;
+}
+#LoginLink{
+  width: 100%;
+  background-color: whitesmoke;
+}
+#LoginLink a{
+  margin-top: 10px;
+}
+.logo{
+  color: #000;
+  background-color: whitesmoke;
 }

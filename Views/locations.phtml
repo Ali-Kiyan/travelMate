@@ -22,9 +22,10 @@ if(isset($_SESSION["User_id"])) {
     </div>
        ';
                     }else{
-    echo '<br> <span class="right">
-                                            <a href="./login.php" class="btn btn-warning Brown"> Log in</a>
-                                      </span> <br>';
+                        echo '<span class="right" id="LoginLink">
+                    <span class="logo navbar-brand">TravelMate</span>
+                        <a href="./login.php" class="btn btn-warning Brown right" > Log in</a>
+                    </span>';
 } ?>
 
 </div>
@@ -58,7 +59,9 @@ if(isset($_SESSION["User_id"])) {
     </div>
 </div>
 
+<div class="row">
 
+</div>
 
 
     <div class="row">
@@ -68,7 +71,7 @@ if(isset($_SESSION["User_id"])) {
 
                 foreach($locations as $location)
                 {
-                    echo ' <div class="text-center animated fadeInDown" style=" color: black;">
+                    echo ' <div class="text-center animated fadeInDown" style=" color: black;margin-top: 3%;">
 
 
                                <div class="col-sm-4">
