@@ -467,6 +467,13 @@ body {
 .Brown{
   background: #5a5a5a;
 }
+.blue{
+  background: #a7a7a7;
+}
+.blue:hover{
+  background: #385260;
+  color: whitesmoke;
+}
 .Brown:hover{
     background: #385265;
     color: whitesmoke;
@@ -598,4 +605,16 @@ font-size: 1.4rem;
 }
 .right{
   float: right !important;
+}
+.left{
+  float: left !important;
+}
+.date{
+  color: #7e8186;
+  font-size: 1rem;
+}
+.name{
+  font-weight: bold;
+  font-size: 20px;
+
 }

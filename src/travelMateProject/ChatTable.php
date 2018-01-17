@@ -12,7 +12,6 @@ class chatTable extends TableAbstract {
 
     public function fetchAllChats() {
         $results = $this->fetchAll();
-//    var_dump($results);
         $ChatArray = array();
         while($row = $results->fetch()) {
             $ChatArray[] = new Chat($row);
