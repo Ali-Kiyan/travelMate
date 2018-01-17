@@ -10,7 +10,6 @@ require_once __dir__ . "/template/footer.phtml";
 ?>
 
 
-
 <div class="well col-sm-6 col-sm-offset-3 animated bounceInDown" id="weather" <?php if(isset($_GET['Country']) && isset($_GET['City']) ){ echo 'style="display: none;';} ?>>
 
     <form class="form-horizontal" role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
@@ -25,7 +24,7 @@ require_once __dir__ . "/template/footer.phtml";
             <input type="text" name="City" class="form-control half" placeholder="Type your desired City ...">
         </div>
 
-        <button type="submit" name="Fsubmit" class="btn btn-info Brown center">Forcast</button>
+        <button type="submit" name="Fsubmit" class="btn btn-info Brown center">Forcast for tomorrow</button>
         <a href="./Dashboard.php" class="btn btn-warning Brown center">Back to Dashboard</a>
 
     </form>
@@ -57,8 +56,8 @@ require_once __dir__ . "/template/footer.phtml";
 
         </tr>
         <tr>
-            <th scope="row">Current Condition</th>
-            <td class="animated fadeInRightBig"><?php echo $weatherArray['currentCondition'] ; ?></td>
+            <th scope="row">Weather Condition</th>
+            <td class="animated fadeInRightBig"><?php echo $weatherArray['weatherCondition'] ; ?></td>
 
         </tr>
         <tr>
@@ -72,8 +71,13 @@ require_once __dir__ . "/template/footer.phtml";
 
         </tr>
         <tr>
-            <th scope="row">Current Temperature (Kelvin)</th>
+            <th scope="row">Temperature (Kelvin)</th>
             <td class="animated fadeInRightBig"><?php echo $weatherArray['temp'] ; ?></td>
+
+        </tr>
+        <tr>
+            <th scope="row"> Pressure</th>
+            <td class="animated fadeInRightBig"><?php echo $weatherArray['pressure'] ; ?></td>
 
         </tr>
         </tbody>
