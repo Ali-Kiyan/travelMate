@@ -630,3 +630,11 @@ font-size: 1.4rem;
   color: #000;
   background-color: whitesmoke;
 }
+
+/* If the browser window is 500px or smaller:
+ */
+@media only screen and (max-width: 768px) {
+  .description {
+    font-size: 0.8rem;
+  }
+}

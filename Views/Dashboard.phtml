@@ -2,5 +2,53 @@
       require_once __dir__ . "/template/nav.phtml";
 ?>
 
+
+
+
+
+<div class="container col-xs-10 col-xs-offset-1 animated bounceInDown">
+      <table class="table table-bordered table-responsive" id="weatherResult" style="text-align: center">
+            <thead>
+            <tr >
+                  <th scope="col">UK Emergency Number</th>
+                  <th style="text-align: center">Description</th>
+                  <th style="text-align: center">Call</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                  <th scope="row" style="text-align: center"> 911</th>
+                  <td class="description"> This is the emergency number for police, ambulance, fire brigade, coastguard, cliff rescue, mountain rescue, cave rescue</td>
+                  <td class="animated fadeInRightBig"><a class="btn btn-success Brown" href="tel:911">Tap to call</a></td>
+
+            </tr>
+            <tr>
+                  <th scope="row" style="text-align: center"> 112</th>
+                  <td class="description">             This operates exactly the same as 999 and directs you to exactly the same emergency call centre. The important thing about 112 is that it will work on a mobile phone anywhere in the world. So on your next foreign holiday, you don’t need to make a note of the emergency number for the country you visit; you just need 112. Incidentally, a EU requirement is that emergency call centres must provide a translations service.
+                  </td>
+                  <td class="animated fadeInRightBig"><a class="btn btn-success Brown" href="tel:112">Tap to call</a></td>
+            </tr>
+            <tr>
+                  <th scope="row" style="text-align: center"> 101</th>
+                  <td class="description"> Use 101 when you want to contact the police, but it’s not an emergency – i.e. an immediate response is not necessary and/or will not be serve any purpose.
+                  </td>
+                  <td class="animated fadeInRightBig"><a class="btn btn-success Brown" href="tel:101">Tap to call</a></td>
+            </tr>
+            <tr>
+                  <th scope="row" style="text-align: center"> 111</th>
+                  <td class="description">   This is available nationwide and replaced and expanded on the former NHS Direct service. Use this for illnesses and minor injuries where life isn’t threatened, but you would like some advice on what to do next.
+                  </td>
+                  <td class="animated fadeInRightBig"><a class="btn btn-success Brown" href="tel:111">Tap to call</a></td>
+            </tr>
+            </tbody>
+      </table>
+</div>
+
+
+
+
+
+
 <?php require_once __dir__ . "/template/footer.phtml";
 ?>
