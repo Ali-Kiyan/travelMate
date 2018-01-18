@@ -1,7 +1,7 @@
 <?php
   class Database {
     // database credentials
-    public static $host = "localhost";
+    public static $host = "/dbClass.php  ";
     public static $dbName ="travelMate";
     public static $username = "root";
     public static $password ="root";
