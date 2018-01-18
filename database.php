@@ -1,7 +1,7 @@
 <?php
 $view = new stdClass();
 $view->pageTitle = 'Database';
-require_once __DIR__ . '/vendor/autoload.php';
+require_once './vendor/autoload.php';
 $database = new travelMateProject\UserTable();
 $view->userList = $database->fetchAllUsers();
 
@@ -24,5 +24,4 @@ if(isset($_POST['Rsubmit']))
 }
 
 
-require_once __DIR__ . '/Views/register.phtml';
-// require_once __DIR__ . '/Views/users.phtml';
+require_once  './Views/register.phtml';

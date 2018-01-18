@@ -1,7 +1,7 @@
 <?php
 $view = new stdClass();
 $view->pageTitle = 'Login';
-require_once __DIR__ . '/vendor/autoload.php';
+require_once  './vendor/autoload.php';
 
 if(isset($_POST['Lsubmit']))
 {
@@ -18,5 +18,5 @@ if(isset($_POST['Lsubmit']))
 
 }
 
-require_once __DIR__ . '/Views/login.phtml';
+require_once './Views/login.phtml';
 
