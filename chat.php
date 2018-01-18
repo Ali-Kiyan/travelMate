@@ -9,7 +9,7 @@ if(isset($_SESSION['User_id']))
 ?>
 <script src="./lib/JS/jquery-3.2.1.min.js"></script>
 <script src="./lib/JS/chat.js"></script>
-<form action="POST" id="userArea" class="col-sm-8 col-sm-offset-2">
+<form action="POST" id="userArea" class="col-sm-8 col-sm-offset-2 animated fadeInDown">
     <div class="form-group">
     <label>Message</label>
     <input type="text" class="form-control" name="messages" id="chattxt" required placeholder="write you brief message (Less than 1000 character)">

@@ -2,7 +2,7 @@
 require_once '../../vendor/autoload.php';
 
     $database = new travelMateProject\ChatTable();
-    $sql = 'SELECT * FROM Chat';
+    $sql = 'SELECT * FROM Chat  ORDER BY Chat_id DESC LIMIT 30';
     $results = $database->getdbh()->prepare($sql);
     $results->execute();
     $ChatArray = array();
