@@ -1,10 +1,10 @@
 <?php
   class Database {
     // database credentials
-    public static $host = "us-cdbr-iron-east-05.cleardb.net";
-    public static $dbName ="heroku_c3c73580b7e36ae";
-    public static $username = "b54eec5c07941d";
-    public static $password ="6e0febf9";
+    public static $host = "localhost";
+    public static $dbName ="travelMate";
+    public static $username = "root";
+    public static $password ="root";
     // connecting to database and accessing to the error with error variable
        private static function conncet () {
           try{
