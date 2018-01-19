@@ -28,7 +28,13 @@ if(isset($_POST['Usubmit']))
 }
 
 
-if($_GET['More']){require_once __DIR__ . '/Views/location.phtml';}
-else{ echo require_once __DIR__ . '/Views/locationprofile.phtml';}
+    if($_GET['More'])
+    {
+        require_once __DIR__ . '/Views/location.phtml';
+    }
+    else
+    {
+        require_once __DIR__ . '/Views/locationprofile.phtml';
+    }
 
 
