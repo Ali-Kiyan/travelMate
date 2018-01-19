@@ -1,0 +1,30 @@
+<?php require_once __dir__ . "/template/header.phtml";
+      require_once __dir__ . "/template/footer.phtml";
+?>
+    <div class="well col-sm-10 col-sm-offset-1" id="userProfile">
+
+        <div class="panel panel-default animated fadeIn">
+            <div class="panel-heading">
+                <h3 class="panel-title" style="text-align: center"><?php echo $Current_Location['Name'];?></h3>
+            </div>
+            <div class="panel-body" style="color: black; text-align: center">
+                <?php echo $Current_Location['Description'];?>
+            </div>
+        </div>
+
+        <div id="disqus_thread"></div>
+        <script>
+
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://travelmate-1.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+
+
+
+
+    </div>
+
