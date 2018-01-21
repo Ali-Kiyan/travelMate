@@ -2,8 +2,8 @@
 
 namespace travelMateProject;
 session_start();
-require_once  './Chat.php';
-require_once  './TableAbstract.php';
+require_once __DIR__ . './Chat.php';
+require_once __DIR__ . './TableAbstract.php';
 
 
 class chatTable extends TableAbstract {
