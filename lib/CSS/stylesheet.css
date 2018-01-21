@@ -488,7 +488,7 @@ body {
 
 
 .bg {
-  background-image: url(../../lib/images/tmMain.jpg);
+  background-image: url(../lib/images/tmMain.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   filter: blur(10px);
