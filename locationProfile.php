@@ -5,7 +5,7 @@ if(!$_GET['More']) {
 }
 $view = new stdClass();
 $view->pageTitle = 'Location profile';
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . './vendor/autoload.php';
 
 $locationdb = new travelMateProject\LocationTable();
 $Current_Location = $locationdb->fetchRecord($_GET['Location_id']);
