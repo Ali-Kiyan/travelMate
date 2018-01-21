@@ -24,4 +24,4 @@
 <!--<div id="messages" class="col-sm-8 col-sm-offset-2">-->
 <!--</div>-->
 <?php //require_once  "./Views/template/footer.phtml"
-//?>
+?>
