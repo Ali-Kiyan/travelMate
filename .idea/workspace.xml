@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="" />
+    <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/CSS/stylesheet.css" afterPath="$PROJECT_DIR$/lib/CSS/stylesheet.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/lib/CSS/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
-              <caret line="490" column="24" lean-forward="false" selection-start-line="490" selection-start-column="24" selection-end-line="490" selection-end-column="24" />
+              <caret line="490" column="36" lean-forward="false" selection-start-line="490" selection-start-column="36" selection-end-line="490" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -384,12 +386,12 @@
       <workItem from="1516297962385" duration="3830000" />
       <workItem from="1516365533260" duration="5568000" />
       <workItem from="1516482797435" duration="1562000" />
-      <workItem from="1516502241544" duration="1018000" />
+      <workItem from="1516502241544" duration="1086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137479000" />
+    <option name="totallyTimeSpent" value="137547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -735,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/login.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -751,10 +745,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/CSS/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="490" column="24" lean-forward="false" selection-start-line="490" selection-start-column="24" selection-end-line="490" selection-end-column="24" />
+          <caret line="490" column="36" lean-forward="false" selection-start-line="490" selection-start-column="36" selection-end-line="490" selection-end-column="36" />
           <folding />
         </state>
       </provider>
