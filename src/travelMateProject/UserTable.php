@@ -2,8 +2,8 @@
 
 namespace travelMateProject;
 session_start();
-require_once  './User.php';
-require_once  './TableAbstract.php';
+require_once __DIR__ . '/User.php';
+require_once __DIR__ . '/TableAbstract.php';
 
 
 class UserTable extends TableAbstract {
