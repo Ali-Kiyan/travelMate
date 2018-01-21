@@ -1,9 +1,9 @@
 <?php
-require_once __dir__ . "/Views/template/included_functions.php";
+require_once  "./Views/template/included_functions.php";
 confirm_logged_in ();
 $view = new stdClass();
 $view->pageTitle = 'Userprofile';
-require_once __DIR__ . '/vendor/autoload.php';
+require_once  './vendor/autoload.php';
 
 $userdb = new travelMateProject\UserTable();
 $Current_User = $userdb->fetchRecord($_SESSION['User_id']);
@@ -31,5 +31,5 @@ if(isset($_POST['Usubmit']))
 }
 
 
-require_once __DIR__ . '/Views/userprofile.phtml';
+require_once './Views/userprofile.phtml';
 
