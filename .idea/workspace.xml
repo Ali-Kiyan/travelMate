@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/login.phtml" afterPath="$PROJECT_DIR$/Views/login.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/CSS/stylesheet.css" afterPath="$PROJECT_DIR$/lib/CSS/stylesheet.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/login.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
+            <state relative-caret-position="1139">
               <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/CSS/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="490" column="24" lean-forward="false" selection-start-line="490" selection-start-column="24" selection-end-line="490" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -197,8 +206,8 @@
         <option value="$PROJECT_DIR$/Dashboard.php" />
         <option value="$PROJECT_DIR$/Chat.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/lib/CSS/stylesheet.css" />
         <option value="$PROJECT_DIR$/Views/login.phtml" />
+        <option value="$PROJECT_DIR$/lib/CSS/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -276,6 +285,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelMate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelMate" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelMate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travelMate" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,12 +450,12 @@
       <workItem from="1516297962385" duration="3830000" />
       <workItem from="1516365533260" duration="5568000" />
       <workItem from="1516482797435" duration="1562000" />
-      <workItem from="1516502241544" duration="768000" />
+      <workItem from="1516502241544" duration="832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137229000" />
+    <option name="totallyTimeSpent" value="137293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -760,14 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CSS/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="487" column="0" lean-forward="true" selection-start-line="487" selection-start-column="0" selection-end-line="487" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -778,8 +811,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/login.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="1139">
           <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CSS/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="490" column="24" lean-forward="false" selection-start-line="490" selection-start-column="24" selection-end-line="490" selection-end-column="24" />
           <folding />
         </state>
       </provider>
