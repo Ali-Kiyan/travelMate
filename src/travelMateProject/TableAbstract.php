@@ -1,7 +1,7 @@
 <?php
 // this file provide general methods that can be used to access data from any database table
 namespace travelMateProject;
-require_once __DIR__ . './Database.php';
+require_once './Database.php';
 
 abstract class TableAbstract
 {

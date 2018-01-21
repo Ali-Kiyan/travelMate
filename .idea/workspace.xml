@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/userprofile.phtml" afterPath="$PROJECT_DIR$/Views/userprofile.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" afterPath="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/travelMateProject/LocationTable.php" afterPath="$PROJECT_DIR$/src/travelMateProject/LocationTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/travelMateProject/TableAbstract.php" afterPath="$PROJECT_DIR$/src/travelMateProject/TableAbstract.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,15 +34,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableAbstract.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TableAbstract.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/travelMateProject/TableAbstract.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="23" />
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
-                <marker date="1516505483230" expanded="true" signature="456:470" ph="SELECT * FRO... ${$this-&gt;name}" />
-                <marker date="1516505483230" expanded="true" signature="654:733" ph="SELECT * FRO... ${$this-&gt;name}" />
-                <marker date="1516505483230" expanded="true" signature="961:1040" ph="SELECT * FRO... ${$this-&gt;name}" />
+                <marker date="1516505553253" expanded="true" signature="446:460" ph="SELECT * FRO... ${$this-&gt;name}" />
+                <marker date="1516505553253" expanded="true" signature="644:723" ph="SELECT * FRO... ${$this-&gt;name}" />
+                <marker date="1516505553253" expanded="true" signature="951:1030" ph="SELECT * FRO... ${$this-&gt;name}" />
               </folding>
             </state>
           </provider>
@@ -61,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/login.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="737">
@@ -228,8 +225,8 @@
         <option value="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/Database.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/LocationTable.php" />
-        <option value="$PROJECT_DIR$/src/travelMateProject/TableAbstract.php" />
         <option value="$PROJECT_DIR$/Views/userprofile.phtml" />
+        <option value="$PROJECT_DIR$/src/travelMateProject/TableAbstract.php" />
       </list>
     </option>
   </component>
@@ -440,12 +437,12 @@
       <workItem from="1516297962385" duration="3830000" />
       <workItem from="1516365533260" duration="5568000" />
       <workItem from="1516482797435" duration="1562000" />
-      <workItem from="1516502241544" duration="2964000" />
+      <workItem from="1516502241544" duration="3006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139425000" />
+    <option name="totallyTimeSpent" value="139467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -822,26 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/travelMateProject/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/travelMateProject/TableAbstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <marker date="1516505483230" expanded="true" signature="456:470" ph="SELECT * FRO... ${$this-&gt;name}" />
-            <marker date="1516505483230" expanded="true" signature="654:733" ph="SELECT * FRO... ${$this-&gt;name}" />
-            <marker date="1516505483230" expanded="true" signature="961:1040" ph="SELECT * FRO... ${$this-&gt;name}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/weatherForecast.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -871,6 +848,26 @@
         <state relative-caret-position="737">
           <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/travelMateProject/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/travelMateProject/TableAbstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1516505553253" expanded="true" signature="446:460" ph="SELECT * FRO... ${$this-&gt;name}" />
+            <marker date="1516505553253" expanded="true" signature="644:723" ph="SELECT * FRO... ${$this-&gt;name}" />
+            <marker date="1516505553253" expanded="true" signature="951:1030" ph="SELECT * FRO... ${$this-&gt;name}" />
+          </folding>
         </state>
       </provider>
     </entry>
