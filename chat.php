@@ -1,12 +1,12 @@
 <?php
-require_once __dir__ . "/Views/template/included_functions.php";
+require_once "./Views/template/included_functions.php";
 confirm_logged_in ();
 $view->pageTitle = 'Chat';
-require_once __dir__ . "/Views/template/header.phtml";
+require_once  "./Views/template/header.phtml";
 
 if(isset($_SESSION['User_id']))
 {
-    require_once __dir__ . "/Views/template/nav.phtml";
+    require_once  "./Views/template/nav.phtml";
 
 }
 ?>
@@ -23,5 +23,5 @@ if(isset($_SESSION['User_id']))
 </form>
 <div id="messages" class="col-sm-8 col-sm-offset-2">
 </div>
-<?php require_once __dir__ . "/Views/template/footer.phtml"
+<?php require_once  "./Views/template/footer.phtml"
 ?>

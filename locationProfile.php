@@ -1,6 +1,6 @@
 <?php
 if(!$_GET['More']) {
-    require_once __dir__ . "/Views/template/included_functions.php";
+    require_once "./Views/template/included_functions.php";
     confirm_logged_in();
 }
 $view = new stdClass();
@@ -30,11 +30,11 @@ if(isset($_POST['Usubmit']))
 
     if($_GET['More'])
     {
-        require_once __DIR__ . '/Views/location.phtml';
+        require_once  './Views/location.phtml';
     }
     else
     {
-        require_once __DIR__ . '/Views/locationprofile.phtml';
+        require_once  './Views/locationprofile.phtml';
     }
 
 

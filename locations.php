@@ -1,8 +1,8 @@
 <?php
 $view = new stdClass();
 $view->pageTitle = 'Locations';
-require_once __DIR__ . '/vendor/autoload.php';
-require_once __dir__ . "/Views/template/included_functions.php";
+require_once  './vendor/autoload.php';
+require_once  "./Views/template/included_functions.php";
 
     $database = new travelMateProject\LocationTable();
     $locations = $database->fetchAllLocations();
@@ -42,5 +42,5 @@ if(isset($_POST['Csubmit']))
     }
 }
 
-require_once __DIR__ . '/Views/locations.phtml';
+require_once  './Views/locations.phtml';
 
