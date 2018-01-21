@@ -1,5 +1,5 @@
 <?php
-require_once  "./Views/template/included_functions.php";
+//require_once  "./Views/template/included_functions.php";
 confirm_logged_in ();
 $view = new stdClass();
 $view->pageTitle = 'Userprofile';
@@ -31,5 +31,5 @@ if(isset($_POST['Usubmit']))
 }
 
 
-require_once './Views/userprofile.phtml';
+//require_once './Views/userprofile.phtml';
 
