@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbClass.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/Dashboard.phtml" afterPath="$PROJECT_DIR$/Views/Dashboard.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" afterPath="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/travelMateProject/UserTable.php" afterPath="$PROJECT_DIR$/src/travelMateProject/UserTable.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatTable.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatTable.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/travelMateProject/ChatTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -113,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTable.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/travelMateProject/UserTable.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -233,8 +230,8 @@
         <option value="$PROJECT_DIR$/Views/Dashboard.phtml" />
         <option value="$PROJECT_DIR$/src/travelMateProject/Database.php" />
         <option value="$PROJECT_DIR$/database.php" />
-        <option value="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/UserTable.php" />
+        <option value="$PROJECT_DIR$/src/travelMateProject/ChatTable.php" />
       </list>
     </option>
   </component>
@@ -432,12 +429,12 @@
       <workItem from="1516297962385" duration="3830000" />
       <workItem from="1516365533260" duration="5568000" />
       <workItem from="1516482797435" duration="1562000" />
-      <workItem from="1516502241544" duration="3359000" />
+      <workItem from="1516502241544" duration="3419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139820000" />
+    <option name="totallyTimeSpent" value="139880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -788,22 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/travelMateProject/ChatTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/travelMateProject/Chat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/travelMateProject/ajaxPostModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -862,6 +843,22 @@
             <marker date="1516505911877" expanded="true" signature="1605:1726" ph="INSERT INTO ${$this-&gt;name}... " />
             <marker date="1516505911877" expanded="true" signature="2205:2354" ph="UPDATE ${$th... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/travelMateProject/Chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/travelMateProject/ChatTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
