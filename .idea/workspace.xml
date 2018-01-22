@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/locationprofile.phtml" afterPath="$PROJECT_DIR$/Views/locationprofile.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/register.phtml" afterPath="$PROJECT_DIR$/Views/register.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/userprofile.phtml" afterPath="$PROJECT_DIR$/Views/userprofile.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationProfile.php" afterPath="$PROJECT_DIR$/locationProfile.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="locationProfile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locationProfile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="30" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -128,7 +126,6 @@
         <option value="$PROJECT_DIR$/lib/CSS/stylesheet.min.css" />
         <option value="$PROJECT_DIR$/locations.php" />
         <option value="$PROJECT_DIR$/Views/locations.phtml" />
-        <option value="$PROJECT_DIR$/locationProfile.php" />
         <option value="$PROJECT_DIR$/Views/location.phtml" />
         <option value="$PROJECT_DIR$/userProfile.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/TableAbstract.php" />
@@ -141,6 +138,7 @@
         <option value="$PROJECT_DIR$/Views/register.phtml" />
         <option value="$PROJECT_DIR$/database.php" />
         <option value="$PROJECT_DIR$/Views/userprofile.phtml" />
+        <option value="$PROJECT_DIR$/locationProfile.php" />
         <option value="$PROJECT_DIR$/Views/locationprofile.phtml" />
       </list>
     </option>
@@ -338,12 +336,12 @@
       <workItem from="1516502241544" duration="3885000" />
       <workItem from="1516640519501" duration="206000" />
       <workItem from="1516645168504" duration="1606000" />
-      <workItem from="1516661952507" duration="40000" />
+      <workItem from="1516661952507" duration="178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142198000" />
+    <option name="totallyTimeSpent" value="142336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -702,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/locationProfile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -711,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="2" />
           <folding />
         </state>
       </provider>
