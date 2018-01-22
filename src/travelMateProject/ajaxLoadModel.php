@@ -1,5 +1,5 @@
 <?php
-require_once './vendor/autoload.php';
+require_once '../../vendor/autoload.php';
 
     $database = new travelMateProject\ChatTable();
     $sql = 'SELECT * FROM Chat  ORDER BY Chat_id DESC LIMIT 30';
@@ -18,5 +18,4 @@ require_once './vendor/autoload.php';
         echo '</div>';
 
     }
-
 
