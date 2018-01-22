@@ -1,4 +1,5 @@
 <?php
+echo "hello";
 //if(!$_GET['More']) {
 //    require_once "./Views/template/included_functions.php";
 //    confirm_logged_in();

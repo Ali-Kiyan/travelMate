@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/locationprofile.phtml" afterPath="$PROJECT_DIR$/Views/locationprofile.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locationProfile.php" afterPath="$PROJECT_DIR$/locationProfile.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="locationProfile.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="locationProfile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/locationProfile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locationprofile.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="locationprofile.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="527">
+              <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
               <folding>
                 <element signature="e#6#54#0#PHP" expanded="true" />
               </folding>
@@ -139,8 +140,8 @@
         <option value="$PROJECT_DIR$/Views/register.phtml" />
         <option value="$PROJECT_DIR$/database.php" />
         <option value="$PROJECT_DIR$/Views/userprofile.phtml" />
-        <option value="$PROJECT_DIR$/locationProfile.php" />
         <option value="$PROJECT_DIR$/Views/locationprofile.phtml" />
+        <option value="$PROJECT_DIR$/locationProfile.php" />
       </list>
     </option>
   </component>
@@ -337,12 +338,12 @@
       <workItem from="1516502241544" duration="3885000" />
       <workItem from="1516640519501" duration="206000" />
       <workItem from="1516645168504" duration="1606000" />
-      <workItem from="1516661952507" duration="328000" />
+      <workItem from="1516661952507" duration="437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142486000" />
+    <option name="totallyTimeSpent" value="142595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -699,21 +700,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locationProfile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Views/locationprofile.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="527">
+          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
           <folding>
             <element signature="e#6#54#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locationProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
