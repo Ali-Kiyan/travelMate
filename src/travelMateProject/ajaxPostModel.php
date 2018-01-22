@@ -1,5 +1,5 @@
 <?php
-require_once '../../vendor/autoload.php';
+require_once './vendor/autoload.php';
 $database = new travelMateProject\ChatTable();
 $message =  $_POST['messages'];
 $user_id = $_POST['User_id'];
