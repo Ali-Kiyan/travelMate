@@ -1,30 +1,38 @@
 <?php
-//require_once "./Views/template/included_functions.php";
-//confirm_logged_in ();
-//$view->pageTitle = 'Chat';
-//require_once  "./Views/template/header.phtml";
-//
-//if(isset($_SESSION['User_id']))
-//{
-//    require_once  "./Views/template/nav.phtml";
-//
-//}
-//?>
-<!--<script src="./lib/JS/jquery-3.2.1.min.js"></script>-->
-<!--<script src="./lib/JS/chat.min.js"></script>-->
-<!--<form action="POST" id="userArea" class="col-sm-8 col-sm-offset-2 animated fadeInDown">-->
-<!--    <div class="form-group">-->
-<!--    <label>Message</label>-->
-<!--    <input type="text" class="form-control" name="messages" id="chattxt" required placeholder="write you brief message (Less than 1000 character)">-->
-<!--    <input type="hidden"  name="User_id" value="--><?php //echo $_SESSION['User_id']; ?><!--"/>-->
-<!--    <input type="hidden"  name="Username" value="--><?php //echo $_SESSION['Username']; ?><!--"/>-->
-<!--    <input type="submit" class="btn Brown" value="Post Message"/>-->
-<!--    </div>-->
-<!--</form>-->
-<!--<div id="messages" class="col-sm-8 col-sm-offset-2">-->
-<!--</div>-->
-<?php //require_once  "./Views/template/footer.phtml"
-//?>
+require_once __dir__ . "/Views/template/included_functions.php";
+confirm_logged_in ();
+if(isset($_GET))
+{
+
+    $Country = trim($_GET['Country']);
+    $City = trim($_GET['City']);
+//using open weather API
+    $api_url = "https://api.openweathermap.org/data/2.5/forecast?q=" . $City . "," . $Country . "&appid=e4b204037b59965c815e80d927e51338";
+    $weather_data = file_get_contents($api_url);
+    $json = json_decode($weather_data, TRUE);
+//echo '<pre>'; var_dump($json) ;echo '</pre>';
+
+    $weatherArray['humidity'] = $json['list'][0]['main']['humidity'];
+    $weatherArray['weatherCondition'] = $json['list'][0]['weather'][0]['description'];
+    $weatherArray['windSpeed'] = $json['list'][0]['wind']['speed'];
+    $weatherArray['windDirection'] = $json['list'][0]['wind']['deg'];
+    $weatherArray['temp'] = $json['list'][0]['main']['temp'];
+    $weatherArray['pressure'] = $json['list'][0]['main']['pressure'];
 
 
-<?php echo "<p>dsadasd</p>";
+}
+
+
+require_once __DIR__ . '/Views/weatherForecast.phtml';
+
+
+
+
+
+
+
+
+
+
+
+

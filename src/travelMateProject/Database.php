@@ -10,8 +10,6 @@ class Database {
     $password = '6e0febf9';
     $host = 'us-cdbr-iron-east-05.cleardb.net';
     $dbname = 'heroku_c3c73580b7e36ae';
-
-      mysql://b54eec5c07941d:6e0febf9@us-cdbr-iron-east-05.cleardb.net/heroku_c3c73580b7e36ae?reconnect=true
     /*
     * checking if the db object already exists
     * if not, new $instance gets created
