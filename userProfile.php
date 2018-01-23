@@ -1,35 +1,38 @@
 <?php
-require_once  "./Views/template/included_functions.php";
+require_once __dir__ . "/Views/template/included_functions.php";
 confirm_logged_in ();
-$view = new stdClass();
-$view->pageTitle = 'Userprofile';
-require_once  './vendor/autoload.php';
-
-$userdb = new travelMateProject\UserTable();
-$Current_User = $userdb->fetchRecord($_SESSION['User_id']);
-
-if(isset($_POST['Usubmit']))
+if(isset($_GET))
 {
-    $userdb = new travelMateProject\UserTable();
-    $_SESSION["First_Name"] = $_POST["First_Name"];
-    $_SESSION["Username"] = $_POST["Username"];
-    $_SESSION["Password"] = $_POST["Password"];
 
+    $Country = trim($_GET['Country']);
+    $City = trim($_GET['City']);
+//using open weather API
+    $api_url = "https://api.openweathermap.org/data/2.5/forecast?q=" . $City . "," . $Country . "&appid=e4b204037b59965c815e80d927e51338";
+    $weather_data = file_get_contents($api_url);
+    $json = json_decode($weather_data, TRUE);
+//echo '<pre>'; var_dump($json) ;echo '</pre>';
 
-    $respond = $userdb->editUser($_POST);
+    $weatherArray['humidity'] = $json['list'][0]['main']['humidity'];
+    $weatherArray['weatherCondition'] = $json['list'][0]['weather'][0]['description'];
+    $weatherArray['windSpeed'] = $json['list'][0]['wind']['speed'];
+    $weatherArray['windDirection'] = $json['list'][0]['wind']['deg'];
+    $weatherArray['temp'] = $json['list'][0]['main']['temp'];
+    $weatherArray['pressure'] = $json['list'][0]['main']['pressure'];
 
-    if($respond)
-    {
-        redirect_to("./UserProfile.php");
-        $view->result = '<div class="alert alert-success">Successfully Updated </div>';
-    }
-    else
-    {
-        $view->result = '<div class="alert alert-danger">Please check your input </div>';
-    }
 
 }
 
 
-require_once './Views/userprofile.phtml';
+require_once __DIR__ . '/Views/weatherForecast.phtml';
+
+
+
+
+
+
+
+
+
+
+
 
