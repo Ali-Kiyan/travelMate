@@ -83,10 +83,10 @@ if(isset($_SESSION["User_id"])) {
                                 <span class="date right">' .  substr((string)$location->getdate(),11,20)  .'</span><p> <br>';
 
 
-                                     echo '<a href="./locationprofile.php?More=True&Location_id='. $location->getLocationId() .'" class="btn btn-info btn-sm ">More</a>';
+                                     echo '<a href="./locationProfile.php?More=True&Location_id='. $location->getLocationId() .'" class="btn btn-info btn-sm ">More</a>';
 
                                     if($location->getUserId() == $_SESSION["User_id"]) {
-                                        echo '<a href="./locationprofile.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-sm">Edit</a>';
+                                        echo '<a href="./locationProfile.php?Location_id='. $location->getLocationId() .'" class="btn btn-warning btn-sm">Edit</a>';
                                     }
 
                                          if($location->getUserId() == $_SESSION["User_id"]) {

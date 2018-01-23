@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c472ea45-c892-43fc-a2c3-8ed516ba575b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/template/nav.phtml" afterPath="$PROJECT_DIR$/Views/template/nav.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userProfile.php" afterPath="$PROJECT_DIR$/userProfile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/locations.phtml" afterPath="$PROJECT_DIR$/Views/locations.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +44,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userProfile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="locations.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/locations.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="88" column="66" lean-forward="false" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
+              <folding>
+                <marker date="1516666455511" expanded="true" signature="233:716" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="315:708" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="354:696" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="403:446" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="447:685" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="485:666" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="811:1005" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="2900:2929" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="2930:3512" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="2986:3512" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="3047:3512" ph="..." />
+                <marker date="1516666455511" expanded="true" signature="3160:3278" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userProfile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userProfile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -139,7 +161,6 @@
         <option value="$PROJECT_DIR$/lib/CSS/stylesheet.css" />
         <option value="$PROJECT_DIR$/lib/CSS/stylesheet.min.css" />
         <option value="$PROJECT_DIR$/locations.php" />
-        <option value="$PROJECT_DIR$/Views/locations.phtml" />
         <option value="$PROJECT_DIR$/Views/location.phtml" />
         <option value="$PROJECT_DIR$/src/travelMateProject/TableAbstract.php" />
         <option value="$PROJECT_DIR$/src/travelMateProject/LocationTable.php" />
@@ -160,6 +181,7 @@
         <option value="$PROJECT_DIR$/Chat.php" />
         <option value="$PROJECT_DIR$/Views/template/nav.phtml" />
         <option value="$PROJECT_DIR$/userProfile.php" />
+        <option value="$PROJECT_DIR$/Views/locations.phtml" />
       </list>
     </option>
   </component>
@@ -374,12 +396,12 @@
       <workItem from="1516502241544" duration="3885000" />
       <workItem from="1516640519501" duration="206000" />
       <workItem from="1516645168504" duration="1606000" />
-      <workItem from="1516661952507" duration="3563000" />
+      <workItem from="1516661952507" duration="3726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145721000" />
+    <option name="totallyTimeSpent" value="145884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -615,14 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/locations.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/locationProfile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -766,6 +780,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/userProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Views/template/nav.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -774,11 +796,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userProfile.php">
+    <entry file="file://$PROJECT_DIR$/Views/locations.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="314">
+          <caret line="88" column="66" lean-forward="false" selection-start-line="88" selection-start-column="66" selection-end-line="88" selection-end-column="66" />
+          <folding>
+            <marker date="1516666455511" expanded="true" signature="233:716" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="315:708" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="354:696" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="403:446" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="447:685" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="485:666" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="811:1005" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="2900:2929" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="2930:3512" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="2986:3512" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="3047:3512" ph="..." />
+            <marker date="1516666455511" expanded="true" signature="3160:3278" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
